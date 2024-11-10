@@ -1,0 +1,138 @@
+2024-11-10 19:54:31.087 [info] Log level: Info
+2024-11-10 19:54:31.087 [info] Validating found git in: "git"
+2024-11-10 19:54:31.087 [info] Using git "2.43.0" from "git"
+2024-11-10 19:54:31.087 [info] > git rev-parse --show-toplevel [7ms]
+2024-11-10 19:54:31.087 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:54:31.087 [info] > git rev-parse --show-toplevel [6ms]
+2024-11-10 19:54:31.087 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:54:31.091 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-10 19:54:31.091 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:54:31.107 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-10 19:54:31.107 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:54:31.134 [info] > git rev-parse --show-toplevel [16ms]
+2024-11-10 19:54:31.134 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:54:31.148 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-10 19:54:31.148 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:54:31.158 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-10 19:54:31.158 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:54:31.171 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-10 19:54:31.171 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:54:31.186 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-10 19:54:31.186 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:54:31.197 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-10 19:54:31.197 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:54:31.208 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-10 19:54:31.209 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:54:31.221 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-10 19:54:31.221 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:54:31.232 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-10 19:54:31.232 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:54:31.248 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-10 19:54:31.248 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:54:31.264 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-10 19:54:31.264 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:54:31.310 [info] > git rev-parse --show-toplevel [35ms]
+2024-11-10 19:54:31.323 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-11-10 19:54:31.340 [info] Open repository: /home/davidelom_gnaglo/prometheus
+2024-11-10 19:54:31.361 [info] > git config --get commit.template [9ms]
+2024-11-10 19:54:32.726 [info] > git check-ignore -v -z --stdin [426ms]
+2024-11-10 19:54:32.829 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [1468ms]
+2024-11-10 19:54:35.264 [info] > git rev-parse --show-toplevel [24ms]
+2024-11-10 19:54:35.264 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:54:57.214 [info] > git status -z -uall [24375ms]
+2024-11-10 19:54:57.257 [info] > git config --get commit.template [2ms]
+2024-11-10 19:54:57.296 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [7ms]
+2024-11-10 19:54:57.659 [info] > git status -z -uall [332ms]
+2024-11-10 19:54:58.063 [info] > git check-ignore -v -z --stdin [26ms]
+2024-11-10 19:55:29.728 [info] > git add -A -- . [1758ms]
+2024-11-10 19:55:29.955 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [208ms]
+2024-11-10 19:55:29.955 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-11-10 19:55:29.974 [info] > git config --get-all user.name [1ms]
+2024-11-10 19:55:30.011 [info] > git config --get commit.template [19ms]
+2024-11-10 19:55:30.014 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [3ms]
+2024-11-10 19:55:30.287 [info] > git status -z -uall [256ms]
+2024-11-10 19:55:35.118 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-10 19:55:35.118 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:56:06.907 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [236ms]
+2024-11-10 19:56:06.907 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-11-10 19:56:06.926 [info] > git config --get-all user.name [2ms]
+2024-11-10 19:56:06.965 [info] > git config --get commit.template [18ms]
+2024-11-10 19:56:06.967 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [4ms]
+2024-11-10 19:56:07.247 [info] > git status -z -uall [262ms]
+2024-11-10 19:56:14.148 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-10 19:56:14.148 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:56:16.883 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-10 19:56:16.883 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:56:33.833 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-10 19:56:33.833 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:56:56.181 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-10 19:56:56.182 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:57:05.383 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-10 19:57:05.383 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-10 19:57:41.849 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [84ms]
+2024-11-10 19:57:41.849 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-11-10 19:57:41.869 [info] > git config --get-all user.name [3ms]
+2024-11-10 19:57:41.906 [info] > git config --get commit.template [18ms]
+2024-11-10 19:57:41.909 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [3ms]
+2024-11-10 19:57:42.186 [info] > git status -z -uall [260ms]
+2024-11-10 19:57:50.879 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-10 19:57:50.879 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

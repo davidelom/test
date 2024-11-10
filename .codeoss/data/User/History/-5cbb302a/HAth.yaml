@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ianna-app-blue-green
+  namespace: ianna-app-blue-green
+labels:
+    app: ianna-app-blue-green
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ianna-app-blue-green
+      version: blue
+  template:
+    metadata:
+      labels:
+        app: ianna-app-blue-green
+        version: blue
+    spec:
+      containers:
+      - name: ianna-app-container
+        image: gcr.io/projet-infrastructure-cloud/ianna-project-exam:v2

@@ -1,0 +1,23 @@
+# Utiliser une image de base Node.js officielle avec une version spécifique
+FROM node:20.9.0-bullseye-slim
+
+# Définir le répertoire de travail dans le conteneur
+WORKDIR /usr/src/app
+
+# Définir l'environnement de production
+ENV NODE_ENV production
+
+# Copier les fichiers package.json et package-lock.json (si disponible)
+COPY package*.json ./
+
+# Installer uniquement les dépendances de production
+RUN npm ci --only=production
+
+# Copier les fichiers sources de l'application
+COPY . .
+
+# Exposer le port sur lequel l'application s'exécute
+EXPOSE 8080
+
+# Définir la commande pour démarrer l'application
+CMD ["npm", "start"]

@@ -1,0 +1,17 @@
+apiVersion: apps/v1 
+kind: Deployment 
+metadata:
+  name : ianna-app-green 
+spec : 
+ replicas :3  
+ selector : 
+ matchLabels : 
+ app :ianna-app-green  
+ template : 
+ metadata : 
+ labels : 
+ app :ianna-app-green  
+ spec : 
+ containers : 
+- name:ianna-container-green  
+ image:gcr.io/[PROJECT_ID]/ianna-project-exam:v2  

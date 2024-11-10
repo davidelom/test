@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ianna-app-service-blue
+  namespace: ianna-app-blue-green
+spec:
+  selector:
+    app: ianna-app-blue-green
+  ports:
+    - port: 80
+      targetPort: 8080
+  type: LoadBalancer

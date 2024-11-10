@@ -1,0 +1,71 @@
+2024-11-07 13:52:09.737 [info] Log level: Info
+2024-11-07 13:52:09.737 [info] Validating found git in: "git"
+2024-11-07 13:52:09.737 [info] Using git "2.43.0" from "git"
+2024-11-07 13:52:09.738 [info] > git rev-parse --show-toplevel [24ms]
+2024-11-07 13:52:09.738 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-07 13:52:09.738 [info] > git rev-parse --show-toplevel [8ms]
+2024-11-07 13:52:09.738 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-07 13:52:09.891 [info] > git rev-parse --show-toplevel [126ms]
+2024-11-07 13:52:09.892 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-07 13:52:09.981 [info] > git rev-parse --show-toplevel [61ms]
+2024-11-07 13:52:09.982 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-07 13:52:10.054 [info] > git rev-parse --show-toplevel [18ms]
+2024-11-07 13:52:10.054 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-07 13:52:10.101 [info] > git rev-parse --show-toplevel [12ms]
+2024-11-07 13:52:10.101 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-07 13:52:10.280 [info] > git rev-parse --show-toplevel [150ms]
+2024-11-07 13:52:10.280 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-07 13:52:10.336 [info] > git rev-parse --show-toplevel [7ms]
+2024-11-07 13:52:10.336 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-07 13:52:10.377 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-07 13:52:10.377 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-07 13:52:10.736 [info] > git rev-parse --show-toplevel [308ms]
+2024-11-07 13:52:10.738 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-07 13:52:14.738 [info] > git rev-parse --show-toplevel [46ms]
+2024-11-07 13:52:14.738 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-07 13:52:14.800 [info] > git rev-parse --show-toplevel [28ms]
+2024-11-07 13:52:14.800 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-07 13:52:15.010 [info] > git rev-parse --show-toplevel [172ms]
+2024-11-07 13:52:15.010 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-07 13:52:15.045 [info] > git rev-parse --show-toplevel [9ms]
+2024-11-07 13:52:15.045 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-07 13:52:15.074 [info] > git rev-parse --show-toplevel [7ms]
+2024-11-07 13:52:15.074 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-07 13:52:15.205 [info] > git rev-parse --show-toplevel [17ms]
+2024-11-07 13:52:15.205 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-11-07 13:52:57.004 [info] > git rev-parse --show-toplevel [48ms]
+2024-11-07 13:52:57.081 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-11-07 13:52:57.148 [info] Open repository: /home/davidelom_gnaglo/app/ianna-project-exam
+2024-11-07 13:52:57.229 [info] > git config --get commit.template [10ms]
+2024-11-07 13:52:57.322 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2024-11-07 13:52:57.351 [warning] ENOENT: no such file or directory, open '/home/davidelom_gnaglo/app/ianna-project-exam/.git/refs/remotes/origin/main'
+2024-11-07 13:52:57.356 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-11-07 13:52:57.491 [info] > git status -z -uall [56ms]
+2024-11-07 13:52:57.721 [info] > git merge-base refs/heads/main refs/remotes/origin/main [164ms]
+2024-11-07 13:52:58.057 [info] > git check-ignore -v -z --stdin [64ms]
+2024-11-07 13:52:58.078 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [244ms]
+2024-11-07 13:52:58.212 [info] > git config --get commit.template [492ms]
+2024-11-07 13:52:58.584 [info] > git show --textconv :app.js [130ms]
+2024-11-07 13:52:58.589 [info] > git diff --name-status -z --diff-filter=ADMR 2252bce86e90580bbc525120fa8de46ad38a9aab...refs/remotes/origin/main [378ms]
+2024-11-07 13:52:58.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [231ms]
+2024-11-07 13:52:58.678 [warning] ENOENT: no such file or directory, open '/home/davidelom_gnaglo/app/ianna-project-exam/.git/refs/remotes/origin/main'
+2024-11-07 13:52:58.679 [info] > git ls-files --stage -- /home/davidelom_gnaglo/app/ianna-project-exam/app.js [97ms]
+2024-11-07 13:52:58.798 [info] > git rev-parse refs/remotes/origin/main [121ms]
+2024-11-07 13:52:58.917 [info] > git cat-file -s 6973472f1d2bf731996dd63820a2bd91b5573129 [122ms]
+2024-11-07 13:52:58.972 [info] > git status -z -uall [69ms]

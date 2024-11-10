@@ -1,0 +1,698 @@
+Launching language server: /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/bin/terraform-ls serve
+Client: Stopped --> Starting
+2024/11/07 13:54:00 serve_command.go:108: Starting terraform-ls 0.33.3
+2024/11/07 13:54:00 service.go:106: Preparing new session ...
+2024/11/07 13:54:00 langserver.go:102: Starting server (pid 12110; concurrency: 2) ...
+2024/11/07 13:54:00 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:00 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:00 rpc_logger.go:32: Incoming request for "initialize" (ID 0): {"processId":12007,"clientInfo":{"name":"Code OSS for Cloud Shell","version":"1.89.1-cde"},"locale":"fr-fr","rootPath":"/home/davidelom_gnaglo","rootUri":"file:///home/davidelom_gnaglo","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","rename","delete"],"failureHandling":"textOnlyTransactional","normalizesLineEndings":true,"changeAnnotationSupport":{"groupsOnLabel":true}},"configuration":true,"didChangeWatchedFiles":{"dynamicRegistration":true,"relativePatternSupport":true},"symbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"tagSupport":{"valueSet":[1]},"resolveSupport":{"properties":["location.range"]}},"codeLens":{"refreshSupport":true},"executeCommand":{"dynamicRegistration":true},"didChangeConfiguration":{"dynamicRegistration":true},"workspaceFolders":true,"foldingRange":{"refreshSupport":true},"semanticTokens":{"refreshSupport":true},"fileOperations":{"dynamicRegistration":true,"didCreate":true,"didRename":true,"didDelete":true,"willCreate":true,"willRename":true,"willDelete":true},"inlineValue":{"refreshSupport":true},"inlayHint":{"refreshSupport":true},"diagnostics":{"refreshSupport":true}},"textDocument":{"publishDiagnostics":{"relatedInformation":true,"versionSupport":false,"tagSupport":{"valueSet":[1,2]},"codeDescriptionSupport":true,"dataSupport":true},"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"contextSupport":true,"completionItem":{"snippetSupport":true,"commitCharactersSupport":true,"documentationFormat":["markdown","plaintext"],"deprecatedSupport":true,"preselectSupport":true,"tagSupport":{"valueSet":[1]},"insertReplaceSupport":true,"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]},"labelDetailsSupport":true},"insertTextMode":2,"completionItemKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]},"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode","data"]}},"hover":{"dynamicRegistration":true,"contentFormat":["markdown","plaintext"]},"signatureHelp":{"dynamicRegistration":true,"signatureInformation":{"documentationFormat":["markdown","plaintext"],"parameterInformation":{"labelOffsetSupport":true},"activeParameterSupport":true},"contextSupport":true},"definition":{"dynamicRegistration":true,"linkSupport":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true,"tagSupport":{"valueSet":[1]},"labelSupport":true},"codeAction":{"dynamicRegistration":true,"isPreferredSupport":true,"disabledSupport":true,"dataSupport":true,"resolveSupport":{"properties":["edit"]},"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["","quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"honorsChangeAnnotations":true},"codeLens":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true,"rangesSupport":true},"onTypeFormatting":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true,"prepareSupport":true,"prepareSupportDefaultBehavior":1,"honorsChangeAnnotations":true},"documentLink":{"dynamicRegistration":true,"tooltipSupport":true},"typeDefinition":{"dynamicRegistration":true,"linkSupport":true},"implementation":{"dynamicRegistration":true,"linkSupport":true},"colorProvider":{"dynamicRegistration":true},"foldingRange":{"dynamicRegistration":true,"rangeLimit":5000,"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"declaration":{"dynamicRegistration":true,"linkSupport":true},"selectionRange":{"dynamicRegistration":true},"callHierarchy":{"dynamicRegistration":true},"semanticTokens":{"dynamicRegistration":true,"tokenTypes":["namespace","type","class","enum","interface","struct","typeParameter","parameter","variable","property","enumMember","event","function","method","macro","keyword","modifier","comment","string","number","regexp","operator","decorator","hcl-attrName","hcl-blockType","hcl-blockLabel","hcl-bool","hcl-string","hcl-number","hcl-objectKey","hcl-mapKey","hcl-keyword","hcl-referenceStep","hcl-typeComplex","hcl-typePrimitive","hcl-functionName"],"tokenModifiers":["declaration","definition","readonly","static","deprecated","abstract","async","modification","documentation","defaultLibrary","hcl-dependent","terraform-data","terraform-locals","terraform-module","terraform-output","terraform-provider","terraform-resource","terraform-provisioner","terraform-connection","terraform-variable","terraform-terraform","terraform-backend","terraform-name","terraform-type","terraform-requiredProviders"],"formats":["relative"],"requests":{"range":true,"full":{"delta":true}},"multilineTokenSupport":false,"overlappingTokenSupport":false,"serverCancelSupport":true,"augmentsSyntaxTokens":true},"linkedEditingRange":{"dynamicRegistration":true},"typeHierarchy":{"dynamicRegistration":true},"inlineValue":{"dynamicRegistration":true},"inlayHint":{"dynamicRegistration":true,"resolveSupport":{"properties":["tooltip","textEdits","label.tooltip","label.location","label.command"]}},"diagnostic":{"dynamicRegistration":true,"relatedDocumentSupport":false}},"window":{"showMessage":{"messageActionItem":{"additionalPropertiesSupport":true}},"showDocument":{"support":true},"workDoneProgress":true},"general":{"staleRequestSupport":{"cancel":true,"retryOnContentModified":["textDocument/semanticTokens/full","textDocument/semanticTokens/range","textDocument/semanticTokens/full/delta"]},"regularExpressions":{"engine":"ECMAScript","version":"ES2020"},"markdown":{"parser":"marked","version":"1.1.0"},"positionEncodings":["utf-16"]},"notebookDocument":{"synchronization":{"dynamicRegistration":true,"executionSummarySupport":true}},"experimental":{"refreshModuleProvidersCommandId":"client.refreshModuleProviders","refreshModuleCallsCommandId":"client.refreshModuleCalls","telemetryVersion":1,"refreshTerraformVersionCommandId":"client.refreshTerraformVersion"}},"initializationOptions":{"validation":{"enableEnhancedValidation":true},"experimentalFeatures":{"validateOnSave":false,"prefillRequiredFields":false},"ignoreSingleFileWarning":false,"terraform":{"path":"","timeout":"","logFilePath":""},"indexing":{"ignorePaths":[],"ignoreDirectoryNames":[]}},"trace":"off","workspaceFolders":[{"uri":"file:///home/davidelom_gnaglo","name":"davidelom_gnaglo"}],"workDoneToken":"f7b9ef61-c428-437b-a594-bb978a3d1975"}
+2024/11/07 13:54:00 initialize.go:185: enabling telemetry (version: 1)
+2024/11/07 13:54:00 initialize.go:190: telemetry enabled (version: 1)
+2024/11/07 13:54:00 scheduler.go:56: launching eval loop 0
+2024/11/07 13:54:00 service.go:482: started low priority scheduler
+2024/11/07 13:54:00 scheduler.go:56: launching eval loop 0
+2024/11/07 13:54:00 service.go:487: started high priority scheduler
+2024/11/07 13:54:00 opts.go:215: Posting server notification "telemetry/event" {"v":1,"name":"initialize","properties":{"experimentalCapabilities.referenceCountCodeLens":false,"experimentalCapabilities.refreshModuleCalls":true,"experimentalCapabilities.refreshModuleProviders":true,"experimentalCapabilities.refreshTerraformVersion":true,"lsVersion":"0.33.3","options.commandPrefix":false,"options.excludeModulePaths":false,"options.experimentalFeatures.prefillRequiredFields":false,"options.experimentalFeatures.validateOnSave":false,"options.ignoreSingleFileWarning":false,"options.indexing.ignoreDirectoryNames":false,"options.indexing.ignorePaths":false,"options.rootModulePaths":false,"options.terraform.logFilePath":false,"options.terraform.path":false,"options.terraform.timeout":"","options.validation.earlyValidation":true,"root_uri":"dir"}}
+2024/11/07 13:54:00 rpc_logger.go:53: Response to "initialize" (ID 0): {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{}},"completionProvider":{"triggerCharacters":[".","["],"resolveProvider":true},"hoverProvider":true,"signatureHelpProvider":{"triggerCharacters":["(",","]},"declarationProvider":true,"definitionProvider":true,"referencesProvider":true,"documentSymbolProvider":true,"codeActionProvider":{"codeActionKinds":["source.formatAll.terraform"]},"codeLensProvider":{},"documentLinkProvider":{},"workspaceSymbolProvider":true,"documentFormattingProvider":true,"executeCommandProvider":{"commands":["terraform-ls.module.callers","terraform-ls.module.calls","terraform-ls.module.providers","terraform-ls.module.terraform","terraform-ls.rootmodules","terraform-ls.terraform.init","terraform-ls.terraform.validate"],"workDoneProgress":true},"semanticTokensProvider":{"legend":{"tokenTypes":["enumMember","function","keyword","number","parameter","property","string","type","variable","hcl-attrName","hcl-blockType","hcl-blockLabel","hcl-bool","hcl-string","hcl-number","hcl-objectKey","hcl-mapKey","hcl-keyword","hcl-referenceStep","hcl-typeComplex","hcl-typePrimitive","hcl-functionName"],"tokenModifiers":["defaultLibrary","hcl-dependent","terraform-backend","terraform-connection","terraform-data","terraform-locals","terraform-module","terraform-name","terraform-output","terraform-provider","terraform-provisioner","terraform-requiredProviders","terraform-resource","terraform-terraform","terraform-type","terraform-variable"]},"full":true},"workspace":{"workspaceFolders":{"supported":true,"changeNotifications":"workspace/didChangeWorkspaceFolders"},"fileOperations":{}},"experimental":{"referenceCountCodeLens":false,"refreshModuleProviders":true,"refreshModuleCalls":true,"refreshTerraformVersion":true}},"serverInfo":{"name":"terraform-ls","version":"0.33.3"}}
+2024/11/07 13:54:00 opts.go:215: Completed 1 requests [6.921916ms elapsed]
+2024/11/07 13:54:00 walker_paths.go:255: walking next dir: {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/cloud-code/api-metadata} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/cloud-code} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/body-parser} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/connect} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/ejs} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/express} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/express-serve-static-core} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/express-session} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/http-errors} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/mime} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/node/assert} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/node/compatibility} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/node/dns} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/node/fs} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/node/readline} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/node/stream} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/node/timers} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/node/ts5.6} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/node} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/nodemon} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/qs} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/range-parser} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/send} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types/serve-static} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/@types} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/types-registry} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules/undici-types} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4/node_modules} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript/5.4} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache/typescript} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.cache} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/CachedProfilesData/__default__profile__} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/CachedProfilesData} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/Machine} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User/History/-1226550e} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User/History/-1daf8558} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User/History/-422a496d} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User/History/-57eb780f} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User/History/-57edaa7} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User/History/1cf083e2} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User/History/2e8d533b} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User/History/5c2c67f9} finished
+2024/11/07 13:54:00 walker.go:218: found module {file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920}
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "1": "OpTypeParseModuleConfiguration" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "2": "OpTypeLoadModuleMetadata" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "3": "OpTypeParseVariables" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "4": "OpTypeDecodeVarsReferences" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 walker.go:91: parsed datadir: &datadir.DataDir{ModuleManifestPath:"", PluginLockFilePath:""}
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "5": "OpTypePreloadEmbeddedSchema" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "6": "OpTypeDecodeReferenceTargets" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "7": "OpTypeDecodeReferenceOrigins" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User/History/6e8d5ebe} finished
+2024/11/07 13:54:00 walker.go:218: found module {file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90}
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "8": "OpTypeParseModuleConfiguration" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "9": "OpTypeLoadModuleMetadata" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "10": "OpTypeParseVariables" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "11": "OpTypeDecodeVarsReferences" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 walker.go:91: parsed datadir: &datadir.DataDir{ModuleManifestPath:"", PluginLockFilePath:""}
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "12": "OpTypePreloadEmbeddedSchema" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "13": "OpTypeDecodeReferenceTargets" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "14": "OpTypeDecodeReferenceOrigins" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User/History} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User/globalStorage/vscode.json-language-features/json-schema-cache} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User/globalStorage/vscode.json-language-features} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User/globalStorage} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User/workspaceStorage/-34f7ea98} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User/workspaceStorage} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/User} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost1/hashicorp.terraform} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost1/output_logging_20241107T095856} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost1/vscode.git} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost1/vscode.github} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost1/vscode.json-language-features} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost2/hashicorp.terraform} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost2/output_logging_20241107T101727} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost2/vscode.git} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost2/vscode.github} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost2/vscode.github-authentication} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost2/vscode.json-language-features} finished
+2024/11/07 13:54:00 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost2/vscode.typescript-language-features} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost2} finished
+2024/11/07 13:54:00 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:00 jobs.go:321: JOBS: Dispatching next job "1" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseModuleConfiguration" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"}
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost3/hashicorp.terraform} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost3/output_logging_20241107T131723} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost3/vscode.git} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost3/vscode.github} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost3/vscode.json-language-features} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost3} finished
+2024/11/07 13:54:00 jobs.go:461: JOBS: Finishing job "1": "OpTypeParseModuleConfiguration" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:00 jobs.go:321: JOBS: Dispatching next job "10" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseVariables" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"}
+2024/11/07 13:54:00 jobs.go:461: JOBS: Finishing job "10": "OpTypeParseVariables" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:00 jobs.go:321: JOBS: Dispatching next job "11" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeVarsReferences" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"}
+2024/11/07 13:54:00 jobs.go:461: JOBS: Finishing job "11": "OpTypeDecodeVarsReferences" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:00 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost4/hashicorp.terraform} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost4/output_logging_20241107T133918} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost4/vscode.git} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost4/vscode.github} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost4/vscode.json-language-features} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost4} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost5/hashicorp.terraform} finished
+2024/11/07 13:54:00 jobs.go:321: JOBS: Dispatching next job "2" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeLoadModuleMetadata" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"}
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost5/output_logging_20241107T135206} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost5/vscode.git} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost5/vscode.github} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost5/vscode.github-authentication} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost5/vscode.json-language-features} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost5/vscode.typescript-language-features} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost5} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost6/hashicorp.terraform} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost6/output_logging_20241107T135352} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost6/vscode.git} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost6/vscode.github} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost6/vscode.typescript-language-features} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820/exthost6} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs/20241107T095820} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data/logs} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/data} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss/extensions} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.codeoss} finished
+2024/11/07 13:54:00 jobs.go:461: JOBS: Finishing job "2": "OpTypeLoadModuleMetadata" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.config/powershell} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.config} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.docker/buildx/activity} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.docker/buildx/defaults} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.docker/buildx/instances} finished
+2024/11/07 13:54:00 jobs.go:321: JOBS: Dispatching next job "3" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseVariables" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"}
+2024/11/07 13:54:00 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:00 jobs.go:461: JOBS: Finishing job "3": "OpTypeParseVariables" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.docker/buildx/refs/default/default} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.docker/buildx/refs/default} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.docker/buildx/refs} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.docker/buildx} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.docker} finished
+2024/11/07 13:54:00 jobs.go:321: JOBS: Dispatching next job "4" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeVarsReferences" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"}
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/admissionregistration.k8s.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/admissionregistration.k8s.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/apiextensions.k8s.io/v1} finished
+2024/11/07 13:54:00 jobs.go:461: JOBS: Finishing job "4": "OpTypeDecodeVarsReferences" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/apiextensions.k8s.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/apiregistration.k8s.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/apiregistration.k8s.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/apps/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/apps} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/authentication.k8s.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/authentication.k8s.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/authorization.k8s.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/authorization.k8s.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/auto.gke.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/auto.gke.io/v1alpha1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/auto.gke.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/autoscaling/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/autoscaling/v2} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/autoscaling} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/autoscaling.x-k8s.io/v1beta1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/autoscaling.x-k8s.io} finished
+2024/11/07 13:54:00 jobs.go:321: JOBS: Dispatching next job "5" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypePreloadEmbeddedSchema" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"}
+2024/11/07 13:54:00 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/batch/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/batch} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/certificates.k8s.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/certificates.k8s.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/cloud.google.com/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/cloud.google.com/v1beta1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/cloud.google.com} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/coordination.k8s.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/coordination.k8s.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/discovery.k8s.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/discovery.k8s.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/events.k8s.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/events.k8s.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/flowcontrol.apiserver.k8s.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/flowcontrol.apiserver.k8s.io/v1beta3} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/flowcontrol.apiserver.k8s.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/hub.gke.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/hub.gke.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/internal.autoscaling.gke.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/internal.autoscaling.gke.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/metrics.k8s.io/v1beta1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/metrics.k8s.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/monitoring.googleapis.com/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/monitoring.googleapis.com/v1alpha1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/monitoring.googleapis.com} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/networking.gke.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/networking.gke.io/v1beta1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/networking.gke.io/v1beta2} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/networking.gke.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/networking.k8s.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/networking.k8s.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/node.gke.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/node.gke.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/node.k8s.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/node.k8s.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/nodemanagement.gke.io/v1alpha1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/nodemanagement.gke.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/policy/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/policy} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/rbac.authorization.k8s.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/rbac.authorization.k8s.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/scheduling.k8s.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/scheduling.k8s.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/snapshot.storage.k8s.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/snapshot.storage.k8s.io/v1beta1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/snapshot.storage.k8s.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/storage.k8s.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/storage.k8s.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/warden.gke.io/v1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217/warden.gke.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery/35.188.120.217} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/discovery} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/http/.diskv-temp} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache/http} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube/cache} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.kube} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/01/fa} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/01} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/08/46} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/08} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/09/12} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/09} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/0c/c8} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/0c} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/0e/f6} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/0e} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/0f/40} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/0f} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/1b/38} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/1b} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/20/a1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/20} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/2b/ab} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/2b} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/31/16} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/31/b7} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/31} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/32/10} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/32} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/37/96} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/37} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/4e/6e} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/4e} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/5b/c6} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/5b} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/71/c6} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/71} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/7c/1d} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/7c} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/84/aa} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/84} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/91/6b} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/91} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/96/0b} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/96} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/98/58} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/98} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/9e/ff} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/9e} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/a7/67} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/a7} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/ad/7e} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/ad/bc} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/ad} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/b8/0f} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/b8} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/bd/ed} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/bd} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/be/32} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/be/ec} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/be} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/c5/32} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/c5} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/c7/61} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/c7} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/cd/2b} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/cd} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/ce/5a} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/ce} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/db/b2} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/db} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/e2/32} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/e2} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/e6/c8} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/e6} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/fa/c7} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/fa} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/fe/9c} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512/fe} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2/sha512} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/content-v2} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/00/7e} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/00} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/05/4b} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/05/f2} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/05} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/10/dd} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/10} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/21/72} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/21} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/26/b6} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/26} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/34/26} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/34} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/37/a9} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/37} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/3b/f4} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/3b} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/4a/a6} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/4a} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/4b/d2} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/4b} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/52/09} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/52} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/54/7a} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/54} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/59/76} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/59} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/5f/ab} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/5f} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/65/45} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/65} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/73/6e} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/73} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/75/5e} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/75} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/76/95} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/76} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/7f/71} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/7f} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/a2/0a} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/a2} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/a4/c1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/a4} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/b7/7c} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/b7} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/ba/fe} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/ba} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/d7/45} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/d7} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/da/08} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/da} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/e1/24} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/e1} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/e3/37} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/e3} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/ea/08} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/ea} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/eb/73} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/eb} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/f3/1b} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/f3} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/fc/ee} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5/fc} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/index-v5} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache/tmp} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_cacache} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm/_logs} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.npm} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.redhat} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.terraform/providers/registry.terraform.io/hashicorp/google/4.85.0/linux_amd64} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.terraform/providers/registry.terraform.io/hashicorp/google/4.85.0} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.terraform/providers/registry.terraform.io/hashicorp/google} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.terraform/providers/registry.terraform.io/hashicorp} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.terraform/providers/registry.terraform.io} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.terraform/providers} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.terraform} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/.terraform.d} finished
+2024/11/07 13:54:00 walker.go:212: skipping ignored dir name: .vscode
+2024/11/07 13:54:00 walker.go:212: skipping ignored dir name: .git
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/app/ianna-project-exam/data} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/app/ianna-project-exam/middlewares} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/app/ianna-project-exam/public/css} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/app/ianna-project-exam/public} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/app/ianna-project-exam/routes} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/app/ianna-project-exam/utils} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/app/ianna-project-exam/views/admin} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/app/ianna-project-exam/views/auth} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/app/ianna-project-exam/views/partials} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/app/ianna-project-exam/views} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/app/ianna-project-exam} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/app} finished
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo/kubernates} finished
+2024/11/07 13:54:00 walker.go:218: found module {file:///home/davidelom_gnaglo}
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "15": "OpTypeParseModuleConfiguration" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "16": "OpTypeLoadModuleMetadata" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "17": "OpTypeParseVariables" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "18": "OpTypeDecodeVarsReferences" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 walker.go:91: parsed datadir: &datadir.DataDir{ModuleManifestPath:"", PluginLockFilePath:"/home/davidelom_gnaglo/.terraform.lock.hcl"}
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "19": "OpTypeParseProviderVersions" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "20": "OpTypeObtainSchema" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "21": "OpTypePreloadEmbeddedSchema" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "22": "OpTypeDecodeReferenceTargets" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 jobs.go:140: JOBS: Enqueueing new job "23": "OpTypeDecodeReferenceOrigins" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: false, IgnoreState: false)
+2024/11/07 13:54:00 walker.go:242: walking of {file:///home/davidelom_gnaglo} finished
+2024/11/07 13:54:00 walker.go:156: walker: walking through {"file:///home/davidelom_gnaglo"} finished
+2024/11/07 13:54:00 jobs.go:299: retrying on obj is nil
+Client: Starting --> Running
+Started client
+2024/11/07 13:54:00 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:00 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:00 rpc_logger.go:32: Incoming notification for "initialized": {}
+2024/11/07 13:54:00 opts.go:215: Posting server call "client/registerCapability" {"registrations":[{"id":"be914cd4-b8bb-e882-7365-de7615dde524","method":"workspace/didChangeWatchedFiles","registerOptions":{"watchers":[{"globPattern":"**/.terraform","kind":3},{"globPattern":"**/.terraform/modules/modules.json"},{"globPattern":"**/.terraform.lock.hcl"},{"globPattern":"**/.terraform/plugins/selections.json"},{"globPattern":"**/.terraform/plugins/linux_amd64/lock.json"}]}}]}
+2024/11/07 13:54:01 opts.go:215: Received response for callback "1"
+2024/11/07 13:54:01 opts.go:215: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"moduleId":"3506dbe6-cc29-09e6-ea52-b1622573f1e9","providerRequirements":{"registry.terraform.io/hashicorp/google":"~\u003e 4.0,~\u003e 4.0,~\u003e 4.0,~\u003e 4.0,~\u003e 4.0,~\u003e 4.0,~\u003e 4.0,~\u003e 4.0,~\u003e 4.0,~\u003e 4.0,~\u003e 4.0,~\u003e 4.0,~\u003e 4.0,~\u003e 4.0,~\u003e 4.0"}}}
+2024/11/07 13:54:01 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920/VWnb.tf","diagnostics":[]}
+2024/11/07 13:54:01 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920/qWJx.tf","diagnostics":[]}
+2024/11/07 13:54:01 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920/SjKt.tf","diagnostics":[]}
+2024/11/07 13:54:01 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920/oLHb.tf","diagnostics":[]}
+2024/11/07 13:54:01 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920/v9am.tf","diagnostics":[{"range":{"start":{"line":16,"character":23},"end":{"line":17,"character":0}},"severity":1,"source":"Terraform","message":"Invalid expression: Expected the start of an expression, but found an invalid expression token."}]}
+2024/11/07 13:54:01 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920/E8V3.tf","diagnostics":[{"range":{"start":{"line":16,"character":2},"end":{"line":16,"character":20}},"severity":1,"source":"Terraform","message":"Argument or block definition required: An argument or block definition is required here. To set an argument, use the equals sign \"=\" to introduce the argument value."}]}
+2024/11/07 13:54:01 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920/f6d5.tf","diagnostics":[]}
+2024/11/07 13:54:01 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920/t8YM.tf","diagnostics":[]}
+2024/11/07 13:54:01 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920/MomQ.tf","diagnostics":[]}
+2024/11/07 13:54:01 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920","diagnostics":[]}
+2024/11/07 13:54:01 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920/rl1S.tf","diagnostics":[]}
+2024/11/07 13:54:01 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920/OhGI.tf","diagnostics":[]}
+2024/11/07 13:54:01 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920/yFsQ.tf","diagnostics":[{"range":{"start":{"line":16,"character":2},"end":{"line":16,"character":19}},"severity":1,"source":"Terraform","message":"Argument or block definition required: An argument or block definition is required here. To set an argument, use the equals sign \"=\" to introduce the argument value."}]}
+2024/11/07 13:54:01 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920/sc3A.tf","diagnostics":[]}
+2024/11/07 13:54:01 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920/RbVG.tf","diagnostics":[]}
+2024/11/07 13:54:01 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920/tAmI.tf","diagnostics":[]}
+2024/11/07 13:54:01 module_ops.go:368: preloaded schema for registry.terraform.io/hashicorp/google 5.35.0 in 1.473869368s
+2024/11/07 13:54:01 jobs.go:461: JOBS: Finishing job "5": "OpTypePreloadEmbeddedSchema" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:01 jobs.go:321: JOBS: Dispatching next job "15" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseModuleConfiguration" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:01 jobs.go:461: JOBS: Finishing job "15": "OpTypeParseModuleConfiguration" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:01 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:01 jobs.go:321: JOBS: Dispatching next job "16" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeLoadModuleMetadata" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:01 jobs.go:461: JOBS: Finishing job "16": "OpTypeLoadModuleMetadata" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:01 jobs.go:321: JOBS: Dispatching next job "17" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseVariables" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:01 jobs.go:461: JOBS: Finishing job "17": "OpTypeParseVariables" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:01 jobs.go:321: JOBS: Dispatching next job "18" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeVarsReferences" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:01 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:01 jobs.go:461: JOBS: Finishing job "18": "OpTypeDecodeVarsReferences" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:01 jobs.go:321: JOBS: Dispatching next job "19" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseProviderVersions" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:01 jobs.go:461: JOBS: Finishing job "19": "OpTypeParseProviderVersions" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:01 jobs.go:321: JOBS: Dispatching next job "20" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeObtainSchema" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:01 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:02 jobs.go:461: JOBS: Finishing job "20": "OpTypeObtainSchema" for {"file:///home/davidelom_gnaglo"} (err = exit status 1
+
+Error: Argument or block definition required
+
+  on main.tf line 17, in resource "google_container_cluster" "primary":
+  17:   initial_node_coun
+
+An argument or block definition is required here. To set an argument, use the
+equals sign "=" to introduce the argument value.
+
+, deferredJobs: [])
+2024/11/07 13:54:02 jobs.go:321: JOBS: Dispatching next job "21" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypePreloadEmbeddedSchema" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:02 jobs.go:461: JOBS: Finishing job "21": "OpTypePreloadEmbeddedSchema" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:02 jobs.go:321: JOBS: Dispatching next job "22" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceTargets" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:02 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:02 jobs.go:461: JOBS: Finishing job "22": "OpTypeDecodeReferenceTargets" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:02 jobs.go:321: JOBS: Dispatching next job "23" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceOrigins" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:02 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:02 jobs.go:461: JOBS: Finishing job "23": "OpTypeDecodeReferenceOrigins" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:02 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:02 jobs.go:321: JOBS: Dispatching next job "6" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceTargets" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"}
+2024/11/07 13:54:02 opts.go:215: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"installedProviders":{"registry.terraform.io/hashicorp/google":"4.85.0"},"moduleId":"fac4da24-f9a6-e8c5-1b9b-045b36897645","providerRequirements":{"registry.terraform.io/hashicorp/google":"~\u003e 4.0"}}}
+2024/11/07 13:54:02 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo","diagnostics":[]}
+2024/11/07 13:54:02 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/main.tf","diagnostics":[{"range":{"start":{"line":16,"character":2},"end":{"line":16,"character":19}},"severity":1,"source":"Terraform","message":"Argument or block definition required: An argument or block definition is required here. To set an argument, use the equals sign \"=\" to introduce the argument value."}]}
+2024/11/07 13:54:02 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:02 jobs.go:461: JOBS: Finishing job "6": "OpTypeDecodeReferenceTargets" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:02 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:02 jobs.go:321: JOBS: Dispatching next job "7" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceOrigins" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"}
+2024/11/07 13:54:02 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:02 jobs.go:461: JOBS: Finishing job "7": "OpTypeDecodeReferenceOrigins" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/5fcf1920"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:02 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:02 jobs.go:321: JOBS: Dispatching next job "8" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseModuleConfiguration" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"}
+2024/11/07 13:54:02 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:02 jobs.go:461: JOBS: Finishing job "8": "OpTypeParseModuleConfiguration" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:02 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:02 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:02 jobs.go:321: JOBS: Dispatching next job "9" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeLoadModuleMetadata" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"}
+2024/11/07 13:54:02 jobs.go:461: JOBS: Finishing job "9": "OpTypeLoadModuleMetadata" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:02 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:02 jobs.go:321: JOBS: Dispatching next job "12" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypePreloadEmbeddedSchema" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"}
+2024/11/07 13:54:02 jobs.go:461: JOBS: Finishing job "12": "OpTypePreloadEmbeddedSchema" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:02 jobs.go:321: JOBS: Dispatching next job "13" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceTargets" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"}
+2024/11/07 13:54:02 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:02 jobs.go:461: JOBS: Finishing job "13": "OpTypeDecodeReferenceTargets" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:02 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:02 jobs.go:321: JOBS: Dispatching next job "14" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceOrigins" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"}
+2024/11/07 13:54:02 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:02 jobs.go:461: JOBS: Finishing job "14": "OpTypeDecodeReferenceOrigins" for {"file:///home/davidelom_gnaglo/.codeoss/data/User/History/97e5b90"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:02 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:07 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:07 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:07 rpc_logger.go:32: Incoming notification for "textDocument/didOpen": {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf","languageId":"terraform","version":1,"text":"terraform {\n  required_providers {\n    google = {\n      source  = \"hashicorp/google\"\n      version = \"~> 4.0\"\n    }\n  }\n}\nprovider \"google\" {\n  project = \"projet-infrastructure-cloud\"\n  region  = \"us-central1\"\n  zone = \"us-central1-a\"\n}\n\nresource \"google_container_cluster\" \"primary\" {\n  name     = \"mon-cluster-gke\"\n  initial_node_coun\n  node_config {\n    machine_type = \"e2-micro\"\n  }\n}"}}
+2024/11/07 13:54:07 did_open.go:56: opened module: /home/davidelom_gnaglo
+2024/11/07 13:54:07 jobs.go:140: JOBS: Enqueueing new job "24": "OpTypeGetTerraformVersion" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: true, IgnoreState: false)
+2024/11/07 13:54:07 jobs.go:140: JOBS: Enqueueing new job "25": "OpTypeParseModuleConfiguration" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: true, IgnoreState: true)
+2024/11/07 13:54:07 jobs.go:140: JOBS: Enqueueing new job "26": "OpTypeLoadModuleMetadata" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: true, IgnoreState: true)
+2024/11/07 13:54:07 jobs.go:140: JOBS: Enqueueing new job "27": "OpTypeGetModuleDataFromRegistry" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: true, IgnoreState: false)
+2024/11/07 13:54:07 jobs.go:140: JOBS: Enqueueing new job "28": "OpTypeParseVariables" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: true, IgnoreState: true)
+2024/11/07 13:54:07 jobs.go:140: JOBS: Enqueueing new job "29": "OpTypeSchemaVarsValidation" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: true, IgnoreState: true)
+2024/11/07 13:54:07 jobs.go:140: JOBS: Enqueueing new job "30": "OpTypeDecodeVarsReferences" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: true, IgnoreState: false)
+2024/11/07 13:54:07 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:07 opts.go:215: Received request batch of size 1 (qlen=1)
+2024/11/07 13:54:07 opts.go:215: Received request batch of size 1 (qlen=2)
+2024/11/07 13:54:07 opts.go:215: Dequeued request batch of length 1 (qlen=2)
+2024/11/07 13:54:07 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:07 jobs.go:321: JOBS: Dispatching next job "24" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeGetTerraformVersion" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:07 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:07 jobs.go:461: JOBS: Finishing job "24": "OpTypeGetTerraformVersion" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:07 jobs.go:321: JOBS: Dispatching next job "25" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeParseModuleConfiguration" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:07 jobs.go:461: JOBS: Finishing job "25": "OpTypeParseModuleConfiguration" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:07 jobs.go:321: JOBS: Dispatching next job "26" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeLoadModuleMetadata" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:07 module_calls.go:64: indexing declared module calls for "file:///home/davidelom_gnaglo": 0
+2024/11/07 13:54:07 jobs.go:140: JOBS: Enqueueing new job "31": "OpTypePreloadEmbeddedSchema" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: true, IgnoreState: true)
+2024/11/07 13:54:07 jobs.go:140: JOBS: Enqueueing new job "32": "OpTypeSchemaModuleValidation" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: true, IgnoreState: true)
+2024/11/07 13:54:07 jobs.go:140: JOBS: Enqueueing new job "33": "OpTypeDecodeReferenceTargets" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: true, IgnoreState: true)
+2024/11/07 13:54:07 jobs.go:140: JOBS: Enqueueing new job "34": "OpTypeDecodeReferenceOrigins" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: true, IgnoreState: true)
+2024/11/07 13:54:07 jobs.go:140: JOBS: Enqueueing new job "35": "OpTypeReferenceValidation" for {"file:///home/davidelom_gnaglo"} (IsDirOpen: true, IgnoreState: true)
+2024/11/07 13:54:07 jobs.go:461: JOBS: Finishing job "26": "OpTypeLoadModuleMetadata" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: ["31" "33" "34"])
+2024/11/07 13:54:07 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:07 jobs.go:321: JOBS: Dispatching next job "28" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeParseVariables" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:07 jobs.go:321: JOBS: Dispatching next job "27" (scheduler prio: -1, job prio: -1, isDirOpen: true): "OpTypeGetModuleDataFromRegistry" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:07 jobs.go:461: JOBS: Finishing job "27": "OpTypeGetModuleDataFromRegistry" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:07 jobs.go:461: JOBS: Finishing job "28": "OpTypeParseVariables" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:07 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:07 jobs.go:321: JOBS: Dispatching next job "29" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeSchemaVarsValidation" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:07 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:07 jobs.go:461: JOBS: Finishing job "29": "OpTypeSchemaVarsValidation" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:07 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:07 jobs.go:321: JOBS: Dispatching next job "30" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeVarsReferences" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:07 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:07 jobs.go:461: JOBS: Finishing job "30": "OpTypeDecodeVarsReferences" for {"file:///home/davidelom_gnaglo"} (err = file:///home/davidelom_gnaglo: state not changed, deferredJobs: [])
+2024/11/07 13:54:07 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:07 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:07 jobs.go:321: JOBS: Dispatching next job "31" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypePreloadEmbeddedSchema" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:07 jobs.go:461: JOBS: Finishing job "31": "OpTypePreloadEmbeddedSchema" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:07 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:07 jobs.go:321: JOBS: Dispatching next job "32" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeSchemaModuleValidation" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:07 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:07 jobs.go:461: JOBS: Finishing job "32": "OpTypeSchemaModuleValidation" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:07 jobs.go:321: JOBS: Dispatching next job "33" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeReferenceTargets" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:07 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:07 jobs.go:461: JOBS: Finishing job "33": "OpTypeDecodeReferenceTargets" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:07 jobs.go:321: JOBS: Dispatching next job "34" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeReferenceOrigins" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:07 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:07 jobs.go:461: JOBS: Finishing job "34": "OpTypeDecodeReferenceOrigins" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:07 opts.go:215: Dequeued request batch of length 1 (qlen=1)
+2024/11/07 13:54:07 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:07 rpc_logger.go:32: Incoming request for "textDocument/documentLink" (ID 3): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:54:07 jobs.go:321: JOBS: Dispatching next job "35" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeReferenceValidation" for {"file:///home/davidelom_gnaglo"}
+2024/11/07 13:54:07 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:07 rpc_logger.go:32: Incoming request for "textDocument/documentSymbol" (ID 1): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:54:08 rpc_logger.go:53: Response to "textDocument/documentLink" (ID 3): [{"range":{"start":{"line":8,"character":9},"end":{"line":8,"character":17}},"target":"https://registry.terraform.io/providers/hashicorp/google/5.35.0/docs?utm_content=documentLink\u0026utm_medium=Code+OSS+for+Cloud+Shell\u0026utm_source=terraform-ls","tooltip":"hashicorp/google Documentation"}]
+2024/11/07 13:54:08 opts.go:215: Completed 1 requests [85.279893ms elapsed]
+2024/11/07 13:54:08 rpc_logger.go:32: Incoming request for "textDocument/semanticTokens/full" (ID 2): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:54:08 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:08 opts.go:215: Received request batch of size 1 (qlen=1)
+2024/11/07 13:54:08 opts.go:215: Dequeued request batch of length 1 (qlen=1)
+2024/11/07 13:54:08 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:08 jobs.go:461: JOBS: Finishing job "35": "OpTypeReferenceValidation" for {"file:///home/davidelom_gnaglo"} (err = %!s(<nil>), deferredJobs: [])
+2024/11/07 13:54:08 opts.go:215: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"installedProviders":{"registry.terraform.io/hashicorp/google":"4.85.0"},"moduleId":"fac4da24-f9a6-e8c5-1b9b-045b36897645","providerRequirements":{"registry.terraform.io/hashicorp/google":"~\u003e 4.0"},"tfVersion":"1.5.7"}}
+2024/11/07 13:54:08 opts.go:215: Posting server call "client.refreshModuleProviders" 
+2024/11/07 13:54:08 jobs.go:299: retrying on obj is nil
+2024/11/07 13:54:08 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo","diagnostics":[]}
+2024/11/07 13:54:08 opts.go:215: Posting server notification "textDocument/publishDiagnostics" {"uri":"file:///home/davidelom_gnaglo/main.tf","diagnostics":[{"range":{"start":{"line":16,"character":2},"end":{"line":16,"character":19}},"severity":1,"source":"Terraform","message":"Argument or block definition required: An argument or block definition is required here. To set an argument, use the equals sign \"=\" to introduce the argument value."}]}
+2024/11/07 13:54:08 rpc_logger.go:53: Response to "textDocument/documentSymbol" (ID 1): [{"name":"terraform","kind":5,"range":{"start":{"line":0,"character":0},"end":{"line":7,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":7,"character":1}},"children":[{"name":"required_providers","kind":5,"range":{"start":{"line":1,"character":2},"end":{"line":6,"character":3}},"selectionRange":{"start":{"line":1,"character":2},"end":{"line":6,"character":3}},"children":[{"name":"google","kind":23,"range":{"start":{"line":2,"character":4},"end":{"line":5,"character":5}},"selectionRange":{"start":{"line":2,"character":4},"end":{"line":5,"character":5}},"children":[{"name":"source","kind":15,"range":{"start":{"line":3,"character":6},"end":{"line":3,"character":34}},"selectionRange":{"start":{"line":3,"character":6},"end":{"line":3,"character":34}}},{"name":"version","kind":15,"range":{"start":{"line":4,"character":6},"end":{"line":4,"character":24}},"selectionRange":{"start":{"line":4,"character":6},"end":{"line":4,"character":24}}}]}]}]},{"name":"provider \"google\"","kind":5,"range":{"start":{"line":8,"character":0},"end":{"line":12,"character":1}},"selectionRange":{"start":{"line":8,"character":0},"end":{"line":12,"character":1}},"children":[{"name":"project","kind":15,"range":{"start":{"line":9,"character":2},"end":{"line":9,"character":41}},"selectionRange":{"start":{"line":9,"character":2},"end":{"line":9,"character":41}}},{"name":"region","kind":15,"range":{"start":{"line":10,"character":2},"end":{"line":10,"character":25}},"selectionRange":{"start":{"line":10,"character":2},"end":{"line":10,"character":25}}},{"name":"zone","kind":15,"range":{"start":{"line":11,"character":2},"end":{"line":11,"character":24}},"selectionRange":{"start":{"line":11,"character":2},"end":{"line":11,"character":24}}}]},{"name":"resource \"google_container_cluster\" \"primary\"","kind":5,"range":{"start":{"line":14,"character":0},"end":{"line":20,"character":1}},"selectionRange":{"start":{"line":14,"character":0},"end":{"line":20,"character":1}},"children":[{"name":"name","kind":15,"range":{"start":{"line":15,"character":2},"end":{"line":15,"character":30}},"selectionRange":{"start":{"line":15,"character":2},"end":{"line":15,"character":30}}},{"name":"node_config","kind":5,"range":{"start":{"line":17,"character":2},"end":{"line":19,"character":3}},"selectionRange":{"start":{"line":17,"character":2},"end":{"line":19,"character":3}},"children":[{"name":"machine_type","kind":15,"range":{"start":{"line":18,"character":4},"end":{"line":18,"character":29}},"selectionRange":{"start":{"line":18,"character":4},"end":{"line":18,"character":29}}}]}]}]
+2024/11/07 13:54:08 opts.go:215: Completed 1 requests [382.065479ms elapsed]
+2024/11/07 13:54:08 rpc_logger.go:32: Incoming request for "textDocument/documentSymbol" (ID 5): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:54:08 rpc_logger.go:53: Response to "textDocument/semanticTokens/full" (ID 2): {"data":[0,0,9,10,8192,1,2,18,10,10240,1,4,6,9,10240,1,6,6,15,0,0,10,18,13,0,1,6,7,15,0,0,10,8,13,0,4,0,8,10,512,0,9,8,11,642,1,2,7,9,512,0,10,29,13,0,1,2,6,9,512,0,10,13,13,0,1,2,4,9,512,0,7,15,13,0,3,0,8,10,4096,0,9,26,11,20482,0,27,9,11,4224,1,2,4,9,4096,0,11,17,13,0,2,2,11,10,4096,1,4,12,9,4096,0,15,10,13,0]}
+2024/11/07 13:54:08 opts.go:215: Completed 1 requests [148.060758ms elapsed]
+2024/11/07 13:54:08 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 4): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:54:08 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 4): []
+2024/11/07 13:54:08 opts.go:215: Completed 1 requests [65.927478ms elapsed]
+2024/11/07 13:54:08 rpc_logger.go:53: Response to "textDocument/documentSymbol" (ID 5): [{"name":"terraform","kind":5,"range":{"start":{"line":0,"character":0},"end":{"line":7,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":7,"character":1}},"children":[{"name":"required_providers","kind":5,"range":{"start":{"line":1,"character":2},"end":{"line":6,"character":3}},"selectionRange":{"start":{"line":1,"character":2},"end":{"line":6,"character":3}},"children":[{"name":"google","kind":23,"range":{"start":{"line":2,"character":4},"end":{"line":5,"character":5}},"selectionRange":{"start":{"line":2,"character":4},"end":{"line":5,"character":5}},"children":[{"name":"source","kind":15,"range":{"start":{"line":3,"character":6},"end":{"line":3,"character":34}},"selectionRange":{"start":{"line":3,"character":6},"end":{"line":3,"character":34}}},{"name":"version","kind":15,"range":{"start":{"line":4,"character":6},"end":{"line":4,"character":24}},"selectionRange":{"start":{"line":4,"character":6},"end":{"line":4,"character":24}}}]}]}]},{"name":"provider \"google\"","kind":5,"range":{"start":{"line":8,"character":0},"end":{"line":12,"character":1}},"selectionRange":{"start":{"line":8,"character":0},"end":{"line":12,"character":1}},"children":[{"name":"project","kind":15,"range":{"start":{"line":9,"character":2},"end":{"line":9,"character":41}},"selectionRange":{"start":{"line":9,"character":2},"end":{"line":9,"character":41}}},{"name":"region","kind":15,"range":{"start":{"line":10,"character":2},"end":{"line":10,"character":25}},"selectionRange":{"start":{"line":10,"character":2},"end":{"line":10,"character":25}}},{"name":"zone","kind":15,"range":{"start":{"line":11,"character":2},"end":{"line":11,"character":24}},"selectionRange":{"start":{"line":11,"character":2},"end":{"line":11,"character":24}}}]},{"name":"resource \"google_container_cluster\" \"primary\"","kind":5,"range":{"start":{"line":14,"character":0},"end":{"line":20,"character":1}},"selectionRange":{"start":{"line":14,"character":0},"end":{"line":20,"character":1}},"children":[{"name":"name","kind":15,"range":{"start":{"line":15,"character":2},"end":{"line":15,"character":30}},"selectionRange":{"start":{"line":15,"character":2},"end":{"line":15,"character":30}}},{"name":"node_config","kind":5,"range":{"start":{"line":17,"character":2},"end":{"line":19,"character":3}},"selectionRange":{"start":{"line":17,"character":2},"end":{"line":19,"character":3}},"children":[{"name":"machine_type","kind":15,"range":{"start":{"line":18,"character":4},"end":{"line":18,"character":29}},"selectionRange":{"start":{"line":18,"character":4},"end":{"line":18,"character":29}}}]}]}]
+2024/11/07 13:54:08 opts.go:215: Completed 1 requests [67.330223ms elapsed]
+2024/11/07 13:54:08 opts.go:215: Received response for callback "2"
+2024/11/07 13:54:08 opts.go:215: Posting server call "client.refreshModuleCalls" 
+2024/11/07 13:54:08 opts.go:215: Received response for callback "3"
+2024/11/07 13:54:08 opts.go:215: Posting server call "client.refreshTerraformVersion" 
+2024/11/07 13:54:08 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:08 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:08 rpc_logger.go:32: Incoming request for "workspace/executeCommand" (ID 6): {"command":"terraform-ls.module.terraform","arguments":["uri=file:///home/davidelom_gnaglo"]}
+2024/11/07 13:54:08 rpc_logger.go:53: Response to "workspace/executeCommand" (ID 6): {"v":0,"discovered_version":"1.5.7"}
+2024/11/07 13:54:08 opts.go:215: Completed 1 requests [392.62µs elapsed]
+2024/11/07 13:54:08 opts.go:215: Received response for callback "4"
+2024/11/07 13:54:08 opts.go:215: Posting server call "workspace/semanticTokens/refresh" 
+2024/11/07 13:54:08 opts.go:215: Received response for callback "5"
+2024/11/07 13:54:08 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:08 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:08 rpc_logger.go:32: Incoming request for "textDocument/semanticTokens/full" (ID 7): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:54:08 rpc_logger.go:53: Response to "textDocument/semanticTokens/full" (ID 7): {"data":[0,0,9,10,8192,1,2,18,10,10240,1,4,6,9,10240,1,6,6,15,0,0,10,18,13,0,1,6,7,15,0,0,10,8,13,0,4,0,8,10,512,0,9,8,11,642,1,2,7,9,512,0,10,29,13,0,1,2,6,9,512,0,10,13,13,0,1,2,4,9,512,0,7,15,13,0,3,0,8,10,4096,0,9,26,11,20482,0,27,9,11,4224,1,2,4,9,4096,0,11,17,13,0,2,2,11,10,4096,1,4,12,9,4096,0,15,10,13,0]}
+2024/11/07 13:54:08 opts.go:215: Completed 1 requests [36.598497ms elapsed]
+2024/11/07 13:54:08 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:08 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:08 rpc_logger.go:32: Incoming request for "textDocument/documentLink" (ID 8): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:54:08 rpc_logger.go:53: Response to "textDocument/documentLink" (ID 8): [{"range":{"start":{"line":8,"character":9},"end":{"line":8,"character":17}},"target":"https://registry.terraform.io/providers/hashicorp/google/5.35.0/docs?utm_content=documentLink\u0026utm_medium=Code+OSS+for+Cloud+Shell\u0026utm_source=terraform-ls","tooltip":"hashicorp/google Documentation"}]
+2024/11/07 13:54:08 opts.go:215: Completed 1 requests [18.863111ms elapsed]
+2024/11/07 13:54:09 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:09 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:09 rpc_logger.go:32: Incoming request for "textDocument/documentSymbol" (ID 9): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:54:09 rpc_logger.go:53: Response to "textDocument/documentSymbol" (ID 9): [{"name":"terraform","kind":5,"range":{"start":{"line":0,"character":0},"end":{"line":7,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":7,"character":1}},"children":[{"name":"required_providers","kind":5,"range":{"start":{"line":1,"character":2},"end":{"line":6,"character":3}},"selectionRange":{"start":{"line":1,"character":2},"end":{"line":6,"character":3}},"children":[{"name":"google","kind":23,"range":{"start":{"line":2,"character":4},"end":{"line":5,"character":5}},"selectionRange":{"start":{"line":2,"character":4},"end":{"line":5,"character":5}},"children":[{"name":"source","kind":15,"range":{"start":{"line":3,"character":6},"end":{"line":3,"character":34}},"selectionRange":{"start":{"line":3,"character":6},"end":{"line":3,"character":34}}},{"name":"version","kind":15,"range":{"start":{"line":4,"character":6},"end":{"line":4,"character":24}},"selectionRange":{"start":{"line":4,"character":6},"end":{"line":4,"character":24}}}]}]}]},{"name":"provider \"google\"","kind":5,"range":{"start":{"line":8,"character":0},"end":{"line":12,"character":1}},"selectionRange":{"start":{"line":8,"character":0},"end":{"line":12,"character":1}},"children":[{"name":"project","kind":15,"range":{"start":{"line":9,"character":2},"end":{"line":9,"character":41}},"selectionRange":{"start":{"line":9,"character":2},"end":{"line":9,"character":41}}},{"name":"region","kind":15,"range":{"start":{"line":10,"character":2},"end":{"line":10,"character":25}},"selectionRange":{"start":{"line":10,"character":2},"end":{"line":10,"character":25}}},{"name":"zone","kind":15,"range":{"start":{"line":11,"character":2},"end":{"line":11,"character":24}},"selectionRange":{"start":{"line":11,"character":2},"end":{"line":11,"character":24}}}]},{"name":"resource \"google_container_cluster\" \"primary\"","kind":5,"range":{"start":{"line":14,"character":0},"end":{"line":20,"character":1}},"selectionRange":{"start":{"line":14,"character":0},"end":{"line":20,"character":1}},"children":[{"name":"name","kind":15,"range":{"start":{"line":15,"character":2},"end":{"line":15,"character":30}},"selectionRange":{"start":{"line":15,"character":2},"end":{"line":15,"character":30}}},{"name":"node_config","kind":5,"range":{"start":{"line":17,"character":2},"end":{"line":19,"character":3}},"selectionRange":{"start":{"line":17,"character":2},"end":{"line":19,"character":3}},"children":[{"name":"machine_type","kind":15,"range":{"start":{"line":18,"character":4},"end":{"line":18,"character":29}},"selectionRange":{"start":{"line":18,"character":4},"end":{"line":18,"character":29}}}]}]}]
+2024/11/07 13:54:09 opts.go:215: Completed 1 requests [16.002877ms elapsed]
+2024/11/07 13:54:12 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:12 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:12 rpc_logger.go:32: Incoming request for "textDocument/documentLink" (ID 10): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:54:12 rpc_logger.go:53: Response to "textDocument/documentLink" (ID 10): [{"range":{"start":{"line":8,"character":9},"end":{"line":8,"character":17}},"target":"https://registry.terraform.io/providers/hashicorp/google/5.35.0/docs?utm_content=documentLink\u0026utm_medium=Code+OSS+for+Cloud+Shell\u0026utm_source=terraform-ls","tooltip":"hashicorp/google Documentation"}]
+2024/11/07 13:54:12 opts.go:215: Completed 1 requests [17.320634ms elapsed]
+2024/11/07 13:54:12 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:12 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:12 rpc_logger.go:32: Incoming request for "textDocument/documentSymbol" (ID 11): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:54:12 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:12 rpc_logger.go:53: Response to "textDocument/documentSymbol" (ID 11): [{"name":"terraform","kind":5,"range":{"start":{"line":0,"character":0},"end":{"line":7,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":7,"character":1}},"children":[{"name":"required_providers","kind":5,"range":{"start":{"line":1,"character":2},"end":{"line":6,"character":3}},"selectionRange":{"start":{"line":1,"character":2},"end":{"line":6,"character":3}},"children":[{"name":"google","kind":23,"range":{"start":{"line":2,"character":4},"end":{"line":5,"character":5}},"selectionRange":{"start":{"line":2,"character":4},"end":{"line":5,"character":5}},"children":[{"name":"source","kind":15,"range":{"start":{"line":3,"character":6},"end":{"line":3,"character":34}},"selectionRange":{"start":{"line":3,"character":6},"end":{"line":3,"character":34}}},{"name":"version","kind":15,"range":{"start":{"line":4,"character":6},"end":{"line":4,"character":24}},"selectionRange":{"start":{"line":4,"character":6},"end":{"line":4,"character":24}}}]}]}]},{"name":"provider \"google\"","kind":5,"range":{"start":{"line":8,"character":0},"end":{"line":12,"character":1}},"selectionRange":{"start":{"line":8,"character":0},"end":{"line":12,"character":1}},"children":[{"name":"project","kind":15,"range":{"start":{"line":9,"character":2},"end":{"line":9,"character":41}},"selectionRange":{"start":{"line":9,"character":2},"end":{"line":9,"character":41}}},{"name":"region","kind":15,"range":{"start":{"line":10,"character":2},"end":{"line":10,"character":25}},"selectionRange":{"start":{"line":10,"character":2},"end":{"line":10,"character":25}}},{"name":"zone","kind":15,"range":{"start":{"line":11,"character":2},"end":{"line":11,"character":24}},"selectionRange":{"start":{"line":11,"character":2},"end":{"line":11,"character":24}}}]},{"name":"resource \"google_container_cluster\" \"primary\"","kind":5,"range":{"start":{"line":14,"character":0},"end":{"line":20,"character":1}},"selectionRange":{"start":{"line":14,"character":0},"end":{"line":20,"character":1}},"children":[{"name":"name","kind":15,"range":{"start":{"line":15,"character":2},"end":{"line":15,"character":30}},"selectionRange":{"start":{"line":15,"character":2},"end":{"line":15,"character":30}}},{"name":"node_config","kind":5,"range":{"start":{"line":17,"character":2},"end":{"line":19,"character":3}},"selectionRange":{"start":{"line":17,"character":2},"end":{"line":19,"character":3}},"children":[{"name":"machine_type","kind":15,"range":{"start":{"line":18,"character":4},"end":{"line":18,"character":29}},"selectionRange":{"start":{"line":18,"character":4},"end":{"line":18,"character":29}}}]}]}]
+2024/11/07 13:54:12 opts.go:215: Completed 1 requests [38.290991ms elapsed]
+2024/11/07 13:54:12 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:12 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 12): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:54:12 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 12): []
+2024/11/07 13:54:12 opts.go:215: Completed 1 requests [23.279806ms elapsed]
+2024/11/07 13:54:25 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:25 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:25 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 13): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:54:25 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 13): []
+2024/11/07 13:54:25 opts.go:215: Completed 1 requests [13.030114ms elapsed]
+2024/11/07 13:54:26 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:26 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:26 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 14): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:54:26 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 14): []
+2024/11/07 13:54:26 opts.go:215: Completed 1 requests [12.55517ms elapsed]
+2024/11/07 13:54:30 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:30 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:30 opts.go:215: Request check error for "$/setTrace" (params "{\"value\":\"off\"}"): [-32601] method not found
+2024/11/07 13:54:32 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:32 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:32 opts.go:215: Request check error for "$/setTrace" (params "{\"value\":\"off\"}"): [-32601] method not found
+2024/11/07 13:54:37 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:37 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:37 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 15): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:54:37 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 15): []
+2024/11/07 13:54:37 opts.go:215: Completed 1 requests [10.199712ms elapsed]
+2024/11/07 13:54:38 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:38 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:38 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 16): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:54:38 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 16): []
+2024/11/07 13:54:38 opts.go:215: Completed 1 requests [9.068866ms elapsed]
+2024/11/07 13:54:39 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:39 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:39 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 17): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:54:39 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 17): []
+2024/11/07 13:54:39 opts.go:215: Completed 1 requests [8.838645ms elapsed]
+2024/11/07 13:54:39 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:54:39 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:54:39 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 18): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:54:39 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 18): []
+2024/11/07 13:54:39 opts.go:215: Completed 1 requests [10.480083ms elapsed]
+2024/11/07 13:55:02 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:55:02 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:55:02 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 19): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:55:02 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 19): []
+2024/11/07 13:55:02 opts.go:215: Completed 1 requests [10.68036ms elapsed]
+2024/11/07 13:55:14 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:55:14 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:55:14 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 20): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:55:14 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 20): []
+2024/11/07 13:55:14 opts.go:215: Completed 1 requests [15.654511ms elapsed]
+2024/11/07 13:55:20 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:55:20 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:55:20 rpc_logger.go:32: Incoming request for "textDocument/documentLink" (ID 21): {"textDocument":{"uri":"file:///home/davidelom_gnaglo/main.tf"}}
+2024/11/07 13:55:20 rpc_logger.go:53: Response to "textDocument/documentLink" (ID 21): [{"range":{"start":{"line":8,"character":9},"end":{"line":8,"character":17}},"target":"https://registry.terraform.io/providers/hashicorp/google/5.35.0/docs?utm_content=documentLink\u0026utm_medium=Code+OSS+for+Cloud+Shell\u0026utm_source=terraform-ls","tooltip":"hashicorp/google Documentation"}]
+2024/11/07 13:55:20 opts.go:215: Completed 1 requests [14.62684ms elapsed]
+Client: Running --> Stopped
+2024/11/07 13:55:22 opts.go:215: Received request batch of size 1 (qlen=0)
+2024/11/07 13:55:22 opts.go:215: Dequeued request batch of length 1 (qlen=0)
+2024/11/07 13:55:22 rpc_logger.go:32: Incoming request for "shutdown" (ID 22): 
+2024/11/07 13:55:22 service.go:568: stopping closedDirWalker for session ...
+2024/11/07 13:55:22 service.go:570: closedDirWalker stopped
+2024/11/07 13:55:22 service.go:573: stopping openDirWalker for session ...
+2024/11/07 13:55:22 service.go:575: openDirWalker stopped
+2024/11/07 13:55:22 scheduler.go:63: stopped scheduler
+2024/11/07 13:55:22 scheduler.go:63: stopped scheduler
+2024/11/07 13:55:22 rpc_logger.go:53: Response to "shutdown" (ID 22): null
+2024/11/07 13:55:22 opts.go:215: Completed 1 requests [212.324µs elapsed]

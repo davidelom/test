@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ianna-app-deployment
+  labels:
+    app: ianna-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ianna-app
+  template:
+    metadata:
+      labels:
+        app: ianna-app
+    spec:
+      containers:
+      - name: ianna-app-container
+        image: gcr.io/projet-infrastructure-cloud/ianna-project-exam:v2
+        ports:
+        - containerPort: 8080

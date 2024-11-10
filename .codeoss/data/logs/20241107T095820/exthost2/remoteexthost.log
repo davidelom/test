@@ -1,0 +1,1347 @@
+2024-11-07 10:17:27.204 [info] Extension host with pid 2288 started
+2024-11-07 10:17:27.236 [info] Lock '/home/davidelom_gnaglo/.codeoss/data/User/workspaceStorage/-34f7ea98/vscode.lock': Lock acquired.
+2024-11-07 10:17:31.198 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: false, activationEvent: 'onLanguage:terraform'
+2024-11-07 10:17:31.200 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-07 10:17:32.201 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-07 10:17:34.662 [error] No bundle location found for extension vscode.emmet
+2024-11-07 10:17:34.662 [error] No bundle location found for extension hashicorp.terraform
+2024-11-07 10:17:34.663 [error] No bundle location found for extension vscode.git-base
+2024-11-07 10:17:34.885 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-07 10:17:34.886 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-07 10:17:38.036 [error] No bundle location found for extension vscode.git
+2024-11-07 10:17:38.149 [warning] Using default string since no string found in i18n bundle that has the key: Log level: {0}
+2024-11-07 10:17:38.153 [warning] Using default string since no string found in i18n bundle that has the key: Validating found git in: "{0}"
+2024-11-07 10:17:38.165 [error] No bundle location found for extension vscode.github
+2024-11-07 10:17:38.201 [warning] Using default string since no string found in i18n bundle that has the key: Log level: {0}
+2024-11-07 10:17:38.230 [warning] Using default string since no string found in i18n bundle that has the key: Enables the following features: {0}
+2024-11-07 10:17:38.230 [warning] Using default string since no string found in i18n bundle that has the key: Using git "{0}" from "{1}"
+2024-11-07 10:17:38.247 [warning] Using default string since no string found in i18n bundle that has the key: Git History
+2024-11-07 10:17:38.253 [warning] Using default string since no string found in i18n bundle that has the key: Copy vscode.dev Link
+2024-11-07 10:17:38.254 [info] Eager extensions activated
+2024-11-07 10:17:38.254 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-11-07 10:17:38.255 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-11-07 10:17:38.255 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-11-07 10:17:38.256 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-07 10:17:38.257 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-07 10:17:39.548 [error] No bundle location found for extension google.cloud-shell
+2024-11-07 10:17:39.600 [error] No bundle location found for extension vscode.merge-conflict
+2024-11-07 10:17:39.643 [warning] Using default string since no string found in i18n bundle that has the key: (Current Change)
+2024-11-07 10:17:39.643 [warning] Using default string since no string found in i18n bundle that has the key: (Incoming Change)
+2024-11-07 10:17:39.669 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-07 10:17:39.670 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-07 10:17:39.671 [error] No bundle location found for extension vscode.debug-auto-launch
+2024-11-07 10:17:39.672 [error] No bundle location found for extension EditorConfig.EditorConfig
+2024-11-07 10:17:39.676 [warning] Using default string since no string found in i18n bundle that has the key: Auto Attach: Disabled
+2024-11-07 10:17:39.677 [warning] Using default string since no string found in i18n bundle that has the key: Auto Attach: Always
+2024-11-07 10:17:39.677 [warning] Using default string since no string found in i18n bundle that has the key: Auto Attach: Smart
+2024-11-07 10:17:39.677 [warning] Using default string since no string found in i18n bundle that has the key: Auto Attach: With Flag
+2024-11-07 10:17:39.678 [warning] Using default string since no string found in i18n bundle that has the key: Disabled
+2024-11-07 10:17:39.678 [warning] Using default string since no string found in i18n bundle that has the key: Always
+2024-11-07 10:17:39.678 [warning] Using default string since no string found in i18n bundle that has the key: Smart
+2024-11-07 10:17:39.678 [warning] Using default string since no string found in i18n bundle that has the key: Only With Flag
+2024-11-07 10:17:39.679 [warning] Using default string since no string found in i18n bundle that has the key: Auto attach is disabled and not shown in status bar
+2024-11-07 10:17:39.679 [warning] Using default string since no string found in i18n bundle that has the key: Auto attach to every Node.js process launched in the terminal
+2024-11-07 10:17:39.679 [warning] Using default string since no string found in i18n bundle that has the key: Auto attach when running scripts that aren't in a node_modules folder
+2024-11-07 10:17:39.679 [warning] Using default string since no string found in i18n bundle that has the key: Only auto attach when the `--inspect` flag is given
+2024-11-07 10:17:39.679 [warning] Using default string since no string found in i18n bundle that has the key: Toggle auto attach in this workspace
+2024-11-07 10:17:39.680 [warning] Using default string since no string found in i18n bundle that has the key: Toggle auto attach on this machine
+2024-11-07 10:17:39.680 [warning] Using default string since no string found in i18n bundle that has the key: Temporarily disable auto attach in this session
+2024-11-07 10:17:39.680 [warning] Using default string since no string found in i18n bundle that has the key: Re-enable auto attach
+2024-11-07 10:17:39.680 [warning] Using default string since no string found in i18n bundle that has the key: Auto Attach: Disabled
+2024-11-07 10:17:39.723 [error] No bundle location found for extension googlecloudtools.cloudcode
+2024-11-07 10:17:42.623 [error] No bundle location found for extension vscode.json-language-features
+2024-11-07 10:17:42.623 [error] No bundle location found for extension vscode.typescript-language-features
+2024-11-07 10:17:42.707 [warning] Using default string since no string found in i18n bundle that has the key: Configure
+2024-11-07 10:17:42.707 [warning] Using default string since no string found in i18n bundle that has the key: JSON Language Server
+2024-11-07 10:17:42.785 [warning] Using default string since no string found in i18n bundle that has the key: Learn more about managing TypeScript versions
+2024-11-07 10:17:42.844 [warning] Using default string since no string found in i18n bundle that has the key: JSON: Schema Resolution Error
+2024-11-07 10:17:43.208 [warning] Using default string since no string found in i18n bundle that has the key: Unable to resolve schema. Click to retry.
+2024-11-07 10:17:43.209 [warning] Using default string since no string found in i18n bundle that has the key: JSON Validation Status
+2024-11-07 10:17:43.210 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 10:17:43.222 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 10:17:43.222 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 10:17:43.222 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 10:43:41.054 [warning] Using default string since no string found in i18n bundle that has the key: Git local working changes
+2024-11-07 10:43:41.055 [warning] Using default string since no string found in i18n bundle that has the key: Commit
+2024-11-07 10:43:41.055 [warning] Using default string since no string found in i18n bundle that has the key: Message ({0} to commit)
+2024-11-07 10:43:41.055 [warning] Using default string since no string found in i18n bundle that has the key: Merge Changes
+2024-11-07 10:43:41.056 [warning] Using default string since no string found in i18n bundle that has the key: Staged Changes
+2024-11-07 10:43:41.056 [warning] Using default string since no string found in i18n bundle that has the key: Changes
+2024-11-07 10:43:41.056 [warning] Using default string since no string found in i18n bundle that has the key: Untracked Changes
+2024-11-07 10:43:41.059 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:43:41.060 [warning] Using default string since no string found in i18n bundle that has the key: Publish to {0}
+2024-11-07 10:43:41.066 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:43:41.066 [warning] Using default string since no string found in i18n bundle that has the key: Publish to {0}
+2024-11-07 10:43:41.067 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:43:41.067 [warning] Using default string since no string found in i18n bundle that has the key: Publish to {0}
+2024-11-07 10:43:41.068 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:43:41.068 [warning] Using default string since no string found in i18n bundle that has the key: Publish to {0}
+2024-11-07 10:43:41.145 [warning] Using default string since no string found in i18n bundle that has the key: Message ({0} to commit on "{1}")
+2024-11-07 10:43:41.145 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:43:41.146 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:43:41.147 [warning] Using default string since no string found in i18n bundle that has the key: {0} Publish Branch/{Locked="Branch"}Do not translate "Branch" as it is a git term
+2024-11-07 10:43:41.147 [warning] Using default string since no string found in i18n bundle that has the key: Publish Branch "{0}"/{Locked="Branch"}Do not translate "Branch" as it is a git term
+2024-11-07 10:43:41.148 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:43:41.149 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:43:41.150 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:43:41.150 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:43:41.181 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-11-07 10:43:41.226 [warning] Using default string since no string found in i18n bundle that has the key: Message ({0} to commit on "{1}")
+2024-11-07 10:43:41.226 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:43:41.226 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:43:41.227 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:43:41.227 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:43:42.347 [error] No bundle location found for extension vscode.github-authentication
+2024-11-07 10:43:42.415 [warning] Using default string since no string found in i18n bundle that has the key: url handler
+2024-11-07 10:43:42.416 [warning] Using default string since no string found in i18n bundle that has the key: local server
+2024-11-07 10:43:42.416 [warning] Using default string since no string found in i18n bundle that has the key: device code
+2024-11-07 10:43:42.416 [warning] Using default string since no string found in i18n bundle that has the key: personal access token
+2024-11-07 10:47:47.848 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:47.848 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:47.964 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:47.965 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:47.988 [warning] Using default string since no string found in i18n bundle that has the key: Message ({0} to commit on "{1}")
+2024-11-07 10:47:47.988 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:47.989 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:47.990 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:47.990 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:47.994 [warning] Using default string since no string found in i18n bundle that has the key: Commit & Push Changes
+2024-11-07 10:47:47.994 [warning] Using default string since no string found in i18n bundle that has the key: Commit & Sync Changes
+2024-11-07 10:47:47.994 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit & Push
+2024-11-07 10:47:47.994 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit & Sync
+2024-11-07 10:47:47.995 [warning] Using default string since no string found in i18n bundle that has the key: Commit Changes on "{0}"
+2024-11-07 10:47:47.995 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit
+2024-11-07 10:47:47.995 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit (Amend)
+2024-11-07 10:47:47.996 [warning] Using default string since no string found in i18n bundle that has the key: Commit Changes on "{0}"
+2024-11-07 10:47:47.996 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit
+2024-11-07 10:47:47.996 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit (Amend)
+2024-11-07 10:47:47.996 [warning] Using default string since no string found in i18n bundle that has the key: Commit & Push Changes
+2024-11-07 10:47:47.996 [warning] Using default string since no string found in i18n bundle that has the key: Commit & Sync Changes
+2024-11-07 10:47:47.996 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit & Push
+2024-11-07 10:47:47.996 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit & Sync
+2024-11-07 10:47:47.996 [warning] Using default string since no string found in i18n bundle that has the key: Commit Changes on "{0}"
+2024-11-07 10:47:47.996 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit
+2024-11-07 10:47:47.996 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit (Amend)
+2024-11-07 10:47:47.998 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:47.998 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:47.998 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:47.998 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:48.001 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:48.001 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:48.001 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:48.001 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:48.002 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:48.002 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:48.002 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:48.002 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:48.028 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:48.029 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:48.029 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:48.029 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:48.030 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:48.030 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:48.030 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:48.030 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:48.058 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:48.059 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:48.059 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:48.059 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:53.535 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:53.535 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:53.535 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:53.535 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:53.556 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:53.556 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:53.556 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:47:53.556 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:47:54.068 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 10:47:54.118 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 10:47:54.141 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 10:47:54.141 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 10:47:54.141 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 10:50:03.108 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:50:03.108 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:50:03.108 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:50:03.108 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:50:03.133 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:50:03.133 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:50:03.133 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:50:03.133 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:50:05.097 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 10:50:05.142 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 10:50:05.143 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-07 10:50:05.143 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-11-07 10:50:05.194 [warning] Using default string since no string found in i18n bundle that has the key: Schema Validated
+2024-11-07 10:50:05.195 [warning] Using default string since no string found in i18n bundle that has the key: multiple JSON schemas configured
+2024-11-07 10:50:05.195 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 10:50:05.500 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:50:05.500 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:50:05.501 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:50:05.501 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:50:05.532 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:50:05.533 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:50:05.533 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:50:05.533 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:50:05.584 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:50:05.584 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:50:05.584 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:50:05.584 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:50:05.639 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:50:05.639 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:50:05.640 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 10:50:05.640 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 10:50:06.286 [error] No bundle location found for extension vscode.extension-editing
+2024-11-07 10:50:06.286 [error] No bundle location found for extension vscode.npm
+2024-11-07 10:50:06.325 [warning] Using default string since no string found in i18n bundle that has the key: This activation event cannot be explicitly listed by your extension.
+2024-11-07 10:50:06.326 [warning] Using default string since no string found in i18n bundle that has the key: This activation event can be removed as Code OSS generates these automatically from your package.json contribution declarations.
+2024-11-07 10:50:06.327 [warning] Using default string since no string found in i18n bundle that has the key: Images must use the HTTPS protocol.
+2024-11-07 10:50:06.328 [warning] Using default string since no string found in i18n bundle that has the key: SVGs are not a valid image source.
+2024-11-07 10:50:06.372 [warning] Using default string since no string found in i18n bundle that has the key: Embedded SVGs are not a valid image source.
+2024-11-07 10:50:06.373 [warning] Using default string since no string found in i18n bundle that has the key: Data URLs are not a valid image source.
+2024-11-07 10:50:06.373 [warning] Using default string since no string found in i18n bundle that has the key: Relative image URLs require a repository with HTTPS protocol to be specified in the package.json.
+2024-11-07 10:50:06.373 [warning] Using default string since no string found in i18n bundle that has the key: Relative badge URLs require a repository with HTTPS protocol to be specified in this package.json.
+2024-11-07 10:50:06.373 [warning] Using default string since no string found in i18n bundle that has the key: This proposal cannot be used because for this extension the product defines a fixed set of API proposals. You can test your extension but before publishing you MUST reach out to the Code OSS team.
+2024-11-07 10:50:06.374 [warning] Using default string since no string found in i18n bundle that has the key: This activation event can be removed for extensions targeting engine version ^1.75 as Code OSS will generate these automatically from your package.json contribution declarations.
+2024-11-07 10:50:06.374 [warning] Using default string since no string found in i18n bundle that has the key: Using '*' activation is usually a bad idea as it impacts performance.
+2024-11-07 10:50:06.374 [warning] Using default string since no string found in i18n bundle that has the key: Error parsing the when-clause:
+2024-11-07 10:50:10.212 [warning] Using default string since no string found in i18n bundle that has the key: Debug
+2024-11-07 10:51:22.408 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 10:51:22.410 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 10:51:22.440 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 10:51:22.441 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 10:51:22.441 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:15:04.769 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:15:04.771 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:15:04.795 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:15:04.796 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:15:04.796 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:19:58.550 [error] [hashicorp.terraform] provider FAILED
+2024-11-07 11:19:58.559 [error] Error: main.tf (19,17): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437683
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437977)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432761
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432781)
+    at processImmediate (node:internal/timers:476:21)
+2024-11-07 11:19:59.508 [error] [hashicorp.terraform] provider FAILED
+2024-11-07 11:19:59.508 [error] Error: main.tf (19,18): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437683
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437977)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432761
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432781)
+    at processImmediate (node:internal/timers:476:21)
+2024-11-07 11:20:29.065 [error] [hashicorp.terraform] provider FAILED
+2024-11-07 11:20:29.066 [error] Error: main.tf (18,25): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437683
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437977)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432761
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432781)
+    at processImmediate (node:internal/timers:476:21)
+2024-11-07 11:22:29.464 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:22:29.599 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:22:29.630 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:22:29.630 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:22:29.630 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:22:44.064 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:22:44.096 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:22:44.124 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:22:44.124 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:22:44.124 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:22:45.427 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:22:46.696 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:22:46.732 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:22:46.733 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:22:46.733 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:22:53.496 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:22:53.559 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:22:53.590 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:22:53.590 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:22:53.590 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:24:06.817 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:24:06.818 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:24:06.845 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:24:06.845 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:24:06.845 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:26:53.549 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:26:53.673 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:26:53.709 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:26:53.710 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:26:53.710 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:31:24.169 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:31:24.171 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:31:24.200 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:31:24.200 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:31:24.200 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:41:43.466 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:41:43.528 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:41:43.548 [warning] Using default string since no string found in i18n bundle that has the key: TypeScript Version
+2024-11-07 11:41:43.548 [warning] Using default string since no string found in i18n bundle that has the key: TypeScript Version
+2024-11-07 11:41:43.549 [warning] Using default string since no string found in i18n bundle that has the key: TypeScript: Configure Excludes
+2024-11-07 11:41:43.610 [warning] Using default string since no string found in i18n bundle that has the key: Select Version
+2024-11-07 11:41:43.661 [warning] Using default string since no string found in i18n bundle that has the key: JS/TS IntelliSense Status
+2024-11-07 11:41:43.662 [warning] Using default string since no string found in i18n bundle that has the key: Loading IntelliSense status
+2024-11-07 11:41:43.683 [warning] Using default string since no string found in i18n bundle that has the key: Could not determine references
+2024-11-07 11:41:43.697 [warning] Using default string since no string found in i18n bundle that has the key: Enables semantic checking in a JavaScript file. Must be at the top of a file.
+2024-11-07 11:41:43.698 [warning] Using default string since no string found in i18n bundle that has the key: Disables semantic checking in a JavaScript file. Must be at the top of a file.
+2024-11-07 11:41:43.698 [warning] Using default string since no string found in i18n bundle that has the key: Suppresses @ts-check errors on the next line of a file.
+2024-11-07 11:41:43.699 [warning] Using default string since no string found in i18n bundle that has the key: Suppresses @ts-check errors on the next line of a file, expecting at least one to exist.
+2024-11-07 11:41:43.743 [warning] Using default string since no string found in i18n bundle that has the key: Organize Imports
+2024-11-07 11:41:43.753 [warning] Using default string since no string found in i18n bundle that has the key: Sort Imports
+2024-11-07 11:41:43.753 [warning] Using default string since no string found in i18n bundle that has the key: Remove Unused Imports
+2024-11-07 11:41:43.767 [warning] Using default string since no string found in i18n bundle that has the key: Learn more about JS/TS refactorings
+2024-11-07 11:41:43.858 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:41:43.859 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:41:43.859 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:41:44.219 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:41:44.219 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:41:44.219 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:41:44.219 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:41:44.270 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:41:44.270 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:41:44.270 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:41:44.270 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:41:44.349 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:41:44.349 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:41:44.349 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:41:44.350 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:41:44.444 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:41:44.444 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:41:44.444 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:41:44.444 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:41:47.627 [warning] Using default string since no string found in i18n bundle that has the key: No jsconfig
+2024-11-07 11:41:47.628 [warning] Using default string since no string found in i18n bundle that has the key: Configure jsconfig
+2024-11-07 11:41:49.338 [warning] Using default string since no string found in i18n bundle that has the key: Fetching data for better TypeScript IntelliSense
+2024-11-07 11:45:20.112 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:45:20.112 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:45:20.112 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:45:20.112 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:45:20.214 [warning] Using default string since no string found in i18n bundle that has the key: Message ({0} to commit on "{1}")
+2024-11-07 11:45:20.215 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:45:20.215 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:45:20.215 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:45:20.215 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:45:20.217 [warning] Using default string since no string found in i18n bundle that has the key: Commit & Push Changes
+2024-11-07 11:45:20.217 [warning] Using default string since no string found in i18n bundle that has the key: Commit & Sync Changes
+2024-11-07 11:45:20.217 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit & Push
+2024-11-07 11:45:20.217 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit & Sync
+2024-11-07 11:45:20.217 [warning] Using default string since no string found in i18n bundle that has the key: Commit Changes on "{0}"
+2024-11-07 11:45:20.217 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit
+2024-11-07 11:45:20.217 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit (Amend)
+2024-11-07 11:45:20.218 [warning] Using default string since no string found in i18n bundle that has the key: Commit Changes on "{0}"
+2024-11-07 11:45:20.218 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit
+2024-11-07 11:45:20.218 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit (Amend)
+2024-11-07 11:45:20.219 [warning] Using default string since no string found in i18n bundle that has the key: Commit & Push Changes
+2024-11-07 11:45:20.219 [warning] Using default string since no string found in i18n bundle that has the key: Commit & Sync Changes
+2024-11-07 11:45:20.219 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit & Push
+2024-11-07 11:45:20.219 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit & Sync
+2024-11-07 11:45:20.219 [warning] Using default string since no string found in i18n bundle that has the key: Commit Changes on "{0}"
+2024-11-07 11:45:20.219 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit
+2024-11-07 11:45:20.219 [warning] Using default string since no string found in i18n bundle that has the key: {0} Commit (Amend)
+2024-11-07 11:45:20.220 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:45:20.221 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:45:20.221 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:45:20.221 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:45:20.221 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:45:20.314 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2024-11-07 11:45:20.315 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2024-11-07 11:45:20.315 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:45:20.316 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:45:20.316 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:45:20.316 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:45:20.316 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:45:20.316 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:45:20.316 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:45:20.316 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:45:20.316 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:45:20.316 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:45:20.316 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:02.383 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:46:02.450 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:46:02.454 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:46:02.454 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:46:02.454 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:46:02.750 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:02.750 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:02.750 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:02.750 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:02.776 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:02.777 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:02.777 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:02.777 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:02.805 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:02.805 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:02.805 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:02.805 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:02.808 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:02.808 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:02.808 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:02.808 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:02.888 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:02.889 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:02.889 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:02.889 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:02.916 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:02.916 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:02.916 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:02.917 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:03.471 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:03.471 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:03.471 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:03.471 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:03.597 [warning] Using default string since no string found in i18n bundle that has the key: Message ({0} to commit on "{1}")
+2024-11-07 11:46:03.597 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:03.597 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:03.598 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:03.598 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:03.598 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:03.599 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:03.599 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:03.599 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:03.599 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:03.699 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2024-11-07 11:46:03.700 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2024-11-07 11:46:03.700 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:03.700 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:03.700 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:03.700 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:04.823 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:46:04.826 [warning] Using default string since no string found in i18n bundle that has the key: JS/TS IntelliSense Status
+2024-11-07 11:46:04.826 [warning] Using default string since no string found in i18n bundle that has the key: Loading IntelliSense status
+2024-11-07 11:46:04.828 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:46:04.841 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:46:04.841 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:46:04.841 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:46:04.845 [warning] Using default string since no string found in i18n bundle that has the key: No jsconfig
+2024-11-07 11:46:04.845 [warning] Using default string since no string found in i18n bundle that has the key: Configure jsconfig
+2024-11-07 11:46:05.025 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:05.025 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:05.026 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:05.026 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:05.049 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:05.050 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:05.050 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:05.051 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:05.110 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:05.110 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:05.110 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:05.110 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:05.117 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:05.117 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:05.117 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:05.117 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:28.213 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:46:28.217 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:46:28.220 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:46:28.220 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:46:28.220 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:46:28.430 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:28.430 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:28.430 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:28.430 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:28.455 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:28.455 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:28.456 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:28.456 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:28.487 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:28.487 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:28.487 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:28.487 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:28.488 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:28.488 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:28.488 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:28.488 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:32.521 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:32.521 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:32.522 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:32.522 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:32.618 [warning] Using default string since no string found in i18n bundle that has the key: Message ({0} to commit on "{1}")
+2024-11-07 11:46:32.619 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:32.619 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:32.619 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:32.619 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:32.619 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:32.620 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:32.620 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:32.620 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:32.620 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:32.718 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2024-11-07 11:46:32.719 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2024-11-07 11:46:32.719 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:32.719 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:32.719 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:32.719 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:35.305 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:46:35.309 [warning] Using default string since no string found in i18n bundle that has the key: JS/TS IntelliSense Status
+2024-11-07 11:46:35.309 [warning] Using default string since no string found in i18n bundle that has the key: Loading IntelliSense status
+2024-11-07 11:46:35.310 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:46:35.320 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:46:35.320 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:46:35.320 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:46:35.322 [warning] Using default string since no string found in i18n bundle that has the key: No jsconfig
+2024-11-07 11:46:35.323 [warning] Using default string since no string found in i18n bundle that has the key: Configure jsconfig
+2024-11-07 11:46:35.484 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:35.484 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:35.485 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:35.485 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:35.504 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:35.504 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:35.505 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:35.505 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:35.531 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:35.531 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:35.531 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:35.532 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:35.563 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:35.563 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:35.564 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:35.564 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:37.622 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:37.622 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:37.622 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:37.622 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:37.722 [warning] Using default string since no string found in i18n bundle that has the key: Message ({0} to commit on "{1}")
+2024-11-07 11:46:37.722 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:37.722 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:37.722 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:37.722 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:37.723 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:37.723 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:37.723 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:37.723 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:37.723 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:37.822 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2024-11-07 11:46:37.822 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2024-11-07 11:46:37.822 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:37.822 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:37.822 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:37.822 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:41.938 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:46:41.942 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:46:41.948 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:46:41.948 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:46:41.948 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:46:42.154 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:42.155 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:42.155 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:42.155 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:42.178 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:42.178 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:42.179 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:42.179 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:42.201 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:42.201 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:42.201 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:42.201 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:42.203 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:42.203 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:42.203 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:42.203 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:46.118 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:46.118 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:46.119 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:46.119 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:46.246 [warning] Using default string since no string found in i18n bundle that has the key: Message ({0} to commit on "{1}")
+2024-11-07 11:46:46.247 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:46.247 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:46.247 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:46.247 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:46.248 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:46.248 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:46.248 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:46.248 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:46.248 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:46.344 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2024-11-07 11:46:46.345 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2024-11-07 11:46:46.345 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:46.345 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:46.345 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:46.345 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:50.533 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:46:50.535 [warning] Using default string since no string found in i18n bundle that has the key: JS/TS IntelliSense Status
+2024-11-07 11:46:50.536 [warning] Using default string since no string found in i18n bundle that has the key: Loading IntelliSense status
+2024-11-07 11:46:50.537 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:46:50.543 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:46:50.543 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:46:50.543 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:46:50.544 [warning] Using default string since no string found in i18n bundle that has the key: No jsconfig
+2024-11-07 11:46:50.544 [warning] Using default string since no string found in i18n bundle that has the key: Configure jsconfig
+2024-11-07 11:46:50.726 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:50.726 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:50.726 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:50.726 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:50.751 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:50.751 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:50.752 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:50.752 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:50.784 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:50.784 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:50.785 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:50.785 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:50.818 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:50.818 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:50.818 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:50.819 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:51.248 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:51.249 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:51.249 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:51.249 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:51.348 [warning] Using default string since no string found in i18n bundle that has the key: Message ({0} to commit on "{1}")
+2024-11-07 11:46:51.348 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:51.348 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:51.349 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:51.349 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:51.349 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:51.349 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:51.349 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:51.350 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:51.350 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:51.451 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2024-11-07 11:46:51.451 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2024-11-07 11:46:51.451 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:51.451 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:51.451 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:51.451 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:46:56.984 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:56.984 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:56.984 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:56.984 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:57.012 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:57.012 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:57.012 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:57.013 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:57.013 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:57.013 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:57.013 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:57.013 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:57.042 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:57.043 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:57.043 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:46:57.043 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:46:57.233 [warning] Using default string since no string found in i18n bundle that has the key: (Current Change)
+2024-11-07 11:46:57.234 [warning] Using default string since no string found in i18n bundle that has the key: (Incoming Change)
+2024-11-07 11:56:07.775 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:56:07.778 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:56:07.789 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:56:07.789 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:56:07.789 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:56:07.981 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:07.981 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:07.981 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:07.981 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:08.001 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:08.002 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:08.002 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:08.002 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:08.024 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:08.024 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:08.025 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:08.025 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:08.026 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:08.026 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:08.026 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:08.026 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:12.550 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:12.550 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:12.551 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:12.551 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:12.677 [warning] Using default string since no string found in i18n bundle that has the key: Message ({0} to commit on "{1}")
+2024-11-07 11:56:12.677 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:12.677 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:12.677 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:12.677 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:12.678 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:56:12.678 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:12.678 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:12.678 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:12.678 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:12.776 [warning] Using default string since no string found in i18n bundle that has the key: {0} (Working Tree)
+2024-11-07 11:56:12.776 [warning] Using default string since no string found in i18n bundle that has the key: Open
+2024-11-07 11:56:12.776 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:56:12.776 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:56:12.776 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:56:12.777 [warning] Using default string since no string found in i18n bundle that has the key: Modified
+2024-11-07 11:56:17.070 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:56:17.073 [warning] Using default string since no string found in i18n bundle that has the key: JS/TS IntelliSense Status
+2024-11-07 11:56:17.073 [warning] Using default string since no string found in i18n bundle that has the key: Loading IntelliSense status
+2024-11-07 11:56:17.075 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:56:17.079 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:56:17.079 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:56:17.079 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:56:17.080 [warning] Using default string since no string found in i18n bundle that has the key: No jsconfig
+2024-11-07 11:56:17.080 [warning] Using default string since no string found in i18n bundle that has the key: Configure jsconfig
+2024-11-07 11:56:17.277 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:17.277 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:17.277 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:17.277 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:17.298 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:17.299 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:17.299 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:17.299 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:17.348 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:17.349 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:17.349 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:17.349 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:17.354 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:17.354 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:17.355 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:17.355 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:19.127 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:56:19.129 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:56:19.135 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:56:19.135 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:56:19.135 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:56:19.349 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:19.349 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:19.350 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:19.350 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:19.371 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:19.371 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:19.371 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:19.371 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:19.394 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:19.394 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:19.394 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:19.394 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:19.395 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:19.395 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:19.395 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:19.395 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:21.401 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:56:21.457 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:56:21.458 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-11-07 11:56:21.465 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:56:21.465 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:56:21.465 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:56:21.658 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:21.659 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:21.661 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:21.661 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:21.716 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:21.716 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:21.717 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:21.717 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:21.754 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:21.755 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:21.755 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:21.756 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:21.822 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:21.822 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:21.822 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:21.822 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:22.682 [error] No bundle location found for extension vscode.markdown-language-features
+2024-11-07 11:56:23.006 [warning] Using default string since no string found in i18n bundle that has the key: Some content has been disabled in this document
+2024-11-07 11:56:23.006 [warning] Using default string since no string found in i18n bundle that has the key: Potentially unsafe or insecure content has been disabled in the Markdown preview. Change the Markdown preview security setting to allow insecure content or enable scripts
+2024-11-07 11:56:23.006 [warning] Using default string since no string found in i18n bundle that has the key: Content Disabled Security Warning
+2024-11-07 11:56:23.023 [warning] Using default string since no string found in i18n bundle that has the key: Markdown Language Server
+2024-11-07 11:56:23.318 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:56:23.320 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:56:23.324 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:56:23.324 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:56:23.324 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:56:23.535 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:23.536 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:23.536 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:23.536 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:23.556 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:23.556 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:23.556 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:23.556 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:23.579 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:23.579 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:23.579 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:23.579 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:23.580 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:23.580 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:23.580 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:23.580 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:38.910 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:56:38.913 [warning] Using default string since no string found in i18n bundle that has the key: JS/TS IntelliSense Status
+2024-11-07 11:56:38.913 [warning] Using default string since no string found in i18n bundle that has the key: Loading IntelliSense status
+2024-11-07 11:56:38.919 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:56:38.924 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:56:38.924 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:56:38.924 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:56:38.925 [warning] Using default string since no string found in i18n bundle that has the key: No jsconfig
+2024-11-07 11:56:38.925 [warning] Using default string since no string found in i18n bundle that has the key: Configure jsconfig
+2024-11-07 11:56:39.126 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:39.126 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:39.126 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:39.126 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:39.147 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:39.147 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:39.148 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:39.148 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:39.177 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:39.177 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:39.177 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:39.177 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:39.202 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:39.203 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:39.203 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:39.203 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:41.409 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:56:41.412 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:56:41.423 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:56:41.423 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:56:41.423 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:56:41.566 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-11-07 11:56:41.621 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:41.621 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:41.622 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:41.622 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:41.646 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:41.647 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:41.647 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:41.648 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:41.678 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:41.678 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:41.678 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:41.678 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:41.706 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:41.707 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:41.707 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:41.707 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:42.014 [error] No bundle location found for extension vscode.markdown-math
+2024-11-07 11:56:42.580 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 11:56:42.582 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 11:56:42.585 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 11:56:42.585 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 11:56:42.585 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 11:56:42.782 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:42.782 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:42.782 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:42.782 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:42.802 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:42.802 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:42.802 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:42.802 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:42.826 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:42.826 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:42.826 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:42.826 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:42.827 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:42.827 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 11:56:42.827 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2024-11-07 11:56:42.827 [warning] Using default string since no string found in i18n bundle that has the key: Synchronize Changes
+2024-11-07 12:06:00.598 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:06:00.647 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:06:00.682 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:06:00.684 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:06:00.684 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:12:53.046 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:12:53.087 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:12:53.118 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:12:53.118 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:12:53.118 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:25:41.284 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:25:41.287 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:25:41.319 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:25:41.319 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:25:41.320 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:25:48.437 [error] [googlecloudtools.cloudcode] provider FAILED
+2024-11-07 12:25:48.437 [error] Error: name must not be falsy
+    at Function.validate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17411)
+    at new l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17649)
+    at G (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11566858)
+    at c (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605548)
+    at Object.t.map (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605634)
+    at Object.asSymbolInformations (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11574965)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11511191)
+    at r.provideDocumentSymbols (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:90654)
+2024-11-07 12:25:48.441 [error] [googlecloudtools.cloudcode] provider FAILED
+2024-11-07 12:25:48.441 [error] Error: name must not be falsy
+    at Function.validate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17411)
+    at new l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17649)
+    at G (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11566858)
+    at c (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605548)
+    at Object.t.map (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605634)
+    at Object.asSymbolInformations (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11574965)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11511191)
+    at r.provideDocumentSymbols (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:90654)
+2024-11-07 12:25:49.758 [error] [googlecloudtools.cloudcode] provider FAILED
+2024-11-07 12:25:49.758 [error] Error: name must not be falsy
+    at Function.validate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17411)
+    at new l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17649)
+    at G (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11566858)
+    at c (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605548)
+    at Object.t.map (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605634)
+    at Object.asSymbolInformations (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11574965)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11511191)
+    at r.provideDocumentSymbols (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:90654)
+2024-11-07 12:25:49.760 [error] [googlecloudtools.cloudcode] provider FAILED
+2024-11-07 12:25:49.760 [error] Error: name must not be falsy
+    at Function.validate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17411)
+    at new l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17649)
+    at G (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11566858)
+    at c (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605548)
+    at Object.t.map (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605634)
+    at Object.asSymbolInformations (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11574965)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11511191)
+    at r.provideDocumentSymbols (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:90654)
+2024-11-07 12:25:50.541 [error] [googlecloudtools.cloudcode] provider FAILED
+2024-11-07 12:25:50.541 [error] Error: name must not be falsy
+    at Function.validate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17411)
+    at new l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17649)
+    at G (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11566858)
+    at c (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605548)
+    at Object.t.map (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605634)
+    at Object.asSymbolInformations (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11574965)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11511191)
+    at r.provideDocumentSymbols (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:90654)
+2024-11-07 12:25:50.543 [error] [googlecloudtools.cloudcode] provider FAILED
+2024-11-07 12:25:50.543 [error] Error: name must not be falsy
+    at Function.validate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17411)
+    at new l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17649)
+    at G (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11566858)
+    at c (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605548)
+    at Object.t.map (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605634)
+    at Object.asSymbolInformations (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11574965)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11511191)
+    at r.provideDocumentSymbols (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:90654)
+2024-11-07 12:25:51.256 [error] [googlecloudtools.cloudcode] provider FAILED
+2024-11-07 12:25:51.256 [error] Error: name must not be falsy
+    at Function.validate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17411)
+    at new l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17649)
+    at G (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11566858)
+    at c (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605548)
+    at Object.t.map (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605634)
+    at Object.asSymbolInformations (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11574965)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11511191)
+    at r.provideDocumentSymbols (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:90654)
+2024-11-07 12:25:51.260 [error] [googlecloudtools.cloudcode] provider FAILED
+2024-11-07 12:25:51.260 [error] Error: name must not be falsy
+    at Function.validate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17411)
+    at new l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17649)
+    at G (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11566858)
+    at c (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605548)
+    at Object.t.map (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605634)
+    at Object.asSymbolInformations (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11574965)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11511191)
+    at r.provideDocumentSymbols (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:90654)
+2024-11-07 12:25:51.707 [error] [googlecloudtools.cloudcode] provider FAILED
+2024-11-07 12:25:51.707 [error] Error: name must not be falsy
+    at Function.validate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17411)
+    at new l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17649)
+    at G (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11566858)
+    at c (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605548)
+    at Object.t.map (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605634)
+    at Object.asSymbolInformations (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11574965)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11511191)
+    at r.provideDocumentSymbols (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:90654)
+2024-11-07 12:25:51.711 [error] [googlecloudtools.cloudcode] provider FAILED
+2024-11-07 12:25:51.711 [error] Error: name must not be falsy
+    at Function.validate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17411)
+    at new l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17649)
+    at G (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11566858)
+    at c (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605548)
+    at Object.t.map (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605634)
+    at Object.asSymbolInformations (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11574965)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11511191)
+    at r.provideDocumentSymbols (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:90654)
+2024-11-07 12:25:52.395 [error] [googlecloudtools.cloudcode] provider FAILED
+2024-11-07 12:25:52.395 [error] Error: name must not be falsy
+    at Function.validate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17411)
+    at new l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17649)
+    at G (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11566858)
+    at c (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605548)
+    at Object.t.map (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605634)
+    at Object.asSymbolInformations (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11574965)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11511191)
+    at r.provideDocumentSymbols (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:90654)
+2024-11-07 12:25:52.399 [error] [googlecloudtools.cloudcode] provider FAILED
+2024-11-07 12:25:52.399 [error] Error: name must not be falsy
+    at Function.validate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17411)
+    at new l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17649)
+    at G (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11566858)
+    at c (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605548)
+    at Object.t.map (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605634)
+    at Object.asSymbolInformations (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11574965)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11511191)
+    at r.provideDocumentSymbols (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:90654)
+2024-11-07 12:25:53.198 [error] [googlecloudtools.cloudcode] provider FAILED
+2024-11-07 12:25:53.198 [error] Error: name must not be falsy
+    at Function.validate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17411)
+    at new l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17649)
+    at G (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11566858)
+    at c (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605548)
+    at Object.t.map (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605634)
+    at Object.asSymbolInformations (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11574965)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11511191)
+    at r.provideDocumentSymbols (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:90654)
+2024-11-07 12:25:53.201 [error] [googlecloudtools.cloudcode] provider FAILED
+2024-11-07 12:25:53.201 [error] Error: name must not be falsy
+    at Function.validate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17411)
+    at new l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:17649)
+    at G (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11566858)
+    at c (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605548)
+    at Object.t.map (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11605634)
+    at Object.asSymbolInformations (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11574965)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:11511191)
+    at r.provideDocumentSymbols (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:90654)
+2024-11-07 12:26:03.111 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:26:03.113 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:26:03.137 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:26:03.137 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:26:03.138 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:28:41.375 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:28:41.425 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:28:41.451 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:28:41.452 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:28:41.452 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:29:07.698 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:29:07.700 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:29:07.737 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:29:07.737 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:29:07.737 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:29:13.201 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:29:13.203 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:29:13.228 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:29:13.228 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:29:13.228 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:29:15.358 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:29:15.360 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:29:15.383 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:29:15.384 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:29:15.384 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:30:15.504 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:30:15.507 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:30:15.539 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:30:15.540 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:30:15.540 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:31:15.760 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:31:15.763 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:31:15.787 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:31:15.787 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:31:15.787 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:31:23.552 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:31:23.553 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:31:23.584 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:31:23.584 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:31:23.584 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:31:27.155 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:31:27.157 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:31:27.187 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:31:27.188 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:31:27.188 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:31:41.069 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:31:41.072 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:31:41.112 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:31:41.113 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:31:41.113 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:35:50.541 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:35:50.603 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:35:50.629 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:35:50.629 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:35:50.629 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:36:06.512 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:36:06.514 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:36:06.542 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:36:06.542 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:36:06.542 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:36:20.393 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:36:20.395 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:36:20.422 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:36:20.422 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:36:20.422 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:36:23.272 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:36:23.273 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:36:23.307 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:36:23.308 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:36:23.308 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:36:27.182 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:36:27.184 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:36:27.208 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:36:27.208 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:36:27.208 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:36:28.654 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:36:28.656 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:36:28.678 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:36:28.678 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:36:28.679 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:36:36.536 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:36:36.538 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:36:36.567 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:36:36.568 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:36:36.568 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:37:12.207 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:37:12.234 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:37:12.264 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:37:12.265 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:37:12.265 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:37:25.891 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:37:25.893 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:37:25.924 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:37:25.925 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:37:25.925 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:37:28.623 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:37:28.624 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:37:28.654 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:37:28.655 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:37:28.655 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:37:32.684 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:37:32.686 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:37:32.714 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:37:32.715 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:37:32.715 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:37:36.307 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:37:36.308 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:37:36.331 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:37:36.331 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:37:36.332 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:37:48.893 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:37:48.898 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:37:48.923 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:37:48.924 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:37:48.924 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:37:51.065 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:37:51.067 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:37:51.109 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:37:51.109 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:37:51.110 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:37:52.344 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:37:52.346 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:37:52.379 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:37:52.379 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:37:52.379 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:38:00.825 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:38:00.827 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:38:00.855 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:38:00.856 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:38:00.856 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:38:07.620 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:38:07.623 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:38:07.652 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:38:07.652 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:38:07.652 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:38:09.573 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:38:09.574 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:38:09.599 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:38:09.599 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:38:09.599 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:38:12.450 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:38:12.454 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:38:12.478 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:38:12.478 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:38:12.478 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:38:15.076 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:38:15.078 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:38:15.110 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:38:15.110 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:38:15.110 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:38:16.617 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:38:16.619 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:38:16.644 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:38:16.644 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:38:16.644 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:38:20.628 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:38:20.630 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:38:20.653 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:38:20.654 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:38:20.654 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:38:23.524 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:38:23.526 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:38:23.550 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:38:23.551 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:38:23.551 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:38:36.073 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:38:36.075 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:38:36.113 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:38:36.113 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:38:36.113 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:38:38.258 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:38:38.260 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:38:38.283 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:38:38.283 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:38:38.283 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:39:00.511 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:39:00.515 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:39:00.538 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:39:00.538 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:39:00.539 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:39:02.749 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:39:02.751 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:39:02.773 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:39:02.773 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:39:02.773 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:39:08.496 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:39:08.498 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:39:08.526 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:39:08.527 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:39:08.527 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:39:10.899 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:39:10.901 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:39:10.924 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:39:10.924 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:39:10.924 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:39:13.160 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:39:13.162 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:39:13.187 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:39:13.187 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:39:13.187 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:39:15.763 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:39:15.766 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:39:15.803 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:39:15.803 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:39:15.803 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:39:32.896 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:39:32.897 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:39:32.923 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:39:32.923 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:39:32.923 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:39:37.601 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:39:37.603 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:39:37.632 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:39:37.632 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:39:37.632 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:39:46.653 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:39:46.655 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:39:46.680 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:39:46.681 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:39:46.681 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:39:50.773 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:39:50.774 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:39:50.799 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:39:50.799 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:39:50.799 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:40:00.188 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:40:00.190 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:40:00.214 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:40:00.214 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:40:00.214 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:40:02.342 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:40:02.345 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:40:02.368 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:40:02.368 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:40:02.368 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:40:10.978 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:40:10.979 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:40:11.008 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:40:11.008 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:40:11.008 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:40:16.307 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:40:16.309 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:40:16.341 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:40:16.341 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:40:16.342 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:43:01.792 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:43:01.795 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:43:01.830 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:43:01.830 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:43:01.830 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 12:44:01.834 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 12:44:01.837 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 12:44:01.868 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 12:44:01.868 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 12:44:01.869 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 13:07:47.345 [info] Extension host terminating: received terminate message from renderer
+2024-11-07 13:07:47.346 [info] Lock '/home/davidelom_gnaglo/.codeoss/data/User/workspaceStorage/-34f7ea98/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-11-07 13:07:47.443 [error] Canceled: Canceled
+    at new L (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at a.O [as value] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:167800)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:730)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:946)
+    at Object.p [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:186884)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192922
+    at Array.forEach (<anonymous>)
+    at f.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192908)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:3955)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:170057)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at a (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+    at f.eb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:9975)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7824
+    at Array.map (<anonymous>)
+    at f.$ (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7811)
+    at f.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:8085)
+    at a.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+    at t (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:9922)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:7969)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:15692)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at f.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at i.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19732)
+    at i.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19538)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:18037)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:15257
+    at Socket.S (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-11-07 13:07:47.459 [error] Canceled: Canceled
+    at new L (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at a.VscodeDevShareProvider.set hasGitHubRepositories [as hasGitHubRepositories] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/github/dist/extension.js:2:25681)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/github/dist/extension.js:2:26640
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:273373)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:730)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:946)
+    at Object.p [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:186884)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192922
+    at Array.forEach (<anonymous>)
+    at f.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192908)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:3955)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:170057)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at a (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+    at f.eb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:9975)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7824
+    at Array.map (<anonymous>)
+    at f.$ (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7811)
+    at f.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:8085)
+    at a.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+    at t (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:9922)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:7969)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:15692)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at f.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at i.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19732)
+    at i.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19538)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:18037)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:15257
+    at Socket.S (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-11-07 13:07:47.473 [warning] Using default string since no string found in i18n bundle that has the key: Report Issue
+2024-11-07 13:07:47.473 [warning] Using default string since no string found in i18n bundle that has the key: The JS/TS language service crashed.
+2024-11-07 13:07:47.489 [info] Extension host with pid 2288 exiting with code 0

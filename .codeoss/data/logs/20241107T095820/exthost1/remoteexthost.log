@@ -1,0 +1,118 @@
+2024-11-07 09:58:56.324 [info] Extension host with pid 1419 started
+2024-11-07 09:58:56.355 [info] Lock '/home/davidelom_gnaglo/.codeoss/data/User/workspaceStorage/-34f7ea98/vscode.lock': Lock acquired.
+2024-11-07 09:58:57.071 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-07 09:58:58.074 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-07 09:58:58.753 [error] No bundle location found for extension vscode.emmet
+2024-11-07 09:58:58.812 [error] No bundle location found for extension vscode.git-base
+2024-11-07 09:58:58.818 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-07 09:58:58.818 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-07 09:58:59.070 [error] No bundle location found for extension vscode.github
+2024-11-07 09:58:59.114 [warning] Using default string since no string found in i18n bundle that has the key: Log level: {0}
+2024-11-07 09:58:59.117 [error] No bundle location found for extension vscode.git
+2024-11-07 09:58:59.219 [warning] Using default string since no string found in i18n bundle that has the key: Log level: {0}
+2024-11-07 09:58:59.222 [warning] Using default string since no string found in i18n bundle that has the key: Validating found git in: "{0}"
+2024-11-07 09:58:59.297 [warning] Using default string since no string found in i18n bundle that has the key: Enables the following features: {0}
+2024-11-07 09:58:59.298 [warning] Using default string since no string found in i18n bundle that has the key: Using git "{0}" from "{1}"
+2024-11-07 09:58:59.314 [warning] Using default string since no string found in i18n bundle that has the key: Git History
+2024-11-07 09:58:59.320 [warning] Using default string since no string found in i18n bundle that has the key: Copy vscode.dev Link
+2024-11-07 09:59:04.078 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: true, activationEvent: 'workspaceContains:**/*.tf,**/*.tfvars'
+2024-11-07 09:59:04.891 [error] No bundle location found for extension hashicorp.terraform
+2024-11-07 09:59:05.347 [info] Eager extensions activated
+2024-11-07 09:59:05.348 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-11-07 09:59:05.350 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-11-07 09:59:05.350 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-11-07 09:59:05.351 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-07 09:59:05.352 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-07 09:59:05.707 [error] No bundle location found for extension google.cloud-shell
+2024-11-07 09:59:05.758 [error] No bundle location found for extension googlecloudtools.cloudcode
+2024-11-07 09:59:08.398 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-07 09:59:08.399 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-11-07 09:59:08.400 [error] No bundle location found for extension vscode.merge-conflict
+2024-11-07 09:59:08.400 [error] No bundle location found for extension vscode.debug-auto-launch
+2024-11-07 09:59:08.400 [error] No bundle location found for extension EditorConfig.EditorConfig
+2024-11-07 09:59:08.435 [warning] Using default string since no string found in i18n bundle that has the key: Auto Attach: Disabled
+2024-11-07 09:59:08.436 [warning] Using default string since no string found in i18n bundle that has the key: Auto Attach: Always
+2024-11-07 09:59:08.436 [warning] Using default string since no string found in i18n bundle that has the key: Auto Attach: Smart
+2024-11-07 09:59:08.436 [warning] Using default string since no string found in i18n bundle that has the key: Auto Attach: With Flag
+2024-11-07 09:59:08.436 [warning] Using default string since no string found in i18n bundle that has the key: Disabled
+2024-11-07 09:59:08.436 [warning] Using default string since no string found in i18n bundle that has the key: Always
+2024-11-07 09:59:08.436 [warning] Using default string since no string found in i18n bundle that has the key: Smart
+2024-11-07 09:59:08.436 [warning] Using default string since no string found in i18n bundle that has the key: Only With Flag
+2024-11-07 09:59:08.436 [warning] Using default string since no string found in i18n bundle that has the key: Auto attach is disabled and not shown in status bar
+2024-11-07 09:59:08.436 [warning] Using default string since no string found in i18n bundle that has the key: Auto attach to every Node.js process launched in the terminal
+2024-11-07 09:59:08.436 [warning] Using default string since no string found in i18n bundle that has the key: Auto attach when running scripts that aren't in a node_modules folder
+2024-11-07 09:59:08.436 [warning] Using default string since no string found in i18n bundle that has the key: Only auto attach when the `--inspect` flag is given
+2024-11-07 09:59:08.436 [warning] Using default string since no string found in i18n bundle that has the key: Toggle auto attach in this workspace
+2024-11-07 09:59:08.436 [warning] Using default string since no string found in i18n bundle that has the key: Toggle auto attach on this machine
+2024-11-07 09:59:08.436 [warning] Using default string since no string found in i18n bundle that has the key: Temporarily disable auto attach in this session
+2024-11-07 09:59:08.436 [warning] Using default string since no string found in i18n bundle that has the key: Re-enable auto attach
+2024-11-07 09:59:08.436 [warning] Using default string since no string found in i18n bundle that has the key: Auto Attach: Disabled
+2024-11-07 09:59:08.495 [warning] Using default string since no string found in i18n bundle that has the key: (Current Change)
+2024-11-07 09:59:08.496 [warning] Using default string since no string found in i18n bundle that has the key: (Incoming Change)
+2024-11-07 09:59:08.515 [warning] Using default string since no string found in i18n bundle that has the key: (Current Change)
+2024-11-07 09:59:08.515 [warning] Using default string since no string found in i18n bundle that has the key: (Incoming Change)
+2024-11-07 09:59:09.119 [warning] Using default string since no string found in i18n bundle that has the key: (Current Change)
+2024-11-07 09:59:09.120 [warning] Using default string since no string found in i18n bundle that has the key: (Incoming Change)
+2024-11-07 09:59:09.121 [error] No bundle location found for extension vscode.typescript-language-features
+2024-11-07 09:59:09.122 [error] No bundle location found for extension vscode.json-language-features
+2024-11-07 09:59:09.202 [warning] Using default string since no string found in i18n bundle that has the key: Learn more about managing TypeScript versions
+2024-11-07 09:59:09.291 [warning] Using default string since no string found in i18n bundle that has the key: Configure
+2024-11-07 09:59:09.291 [warning] Using default string since no string found in i18n bundle that has the key: JSON Language Server
+2024-11-07 09:59:09.397 [warning] Using default string since no string found in i18n bundle that has the key: JSON: Schema Resolution Error
+2024-11-07 09:59:09.851 [warning] Using default string since no string found in i18n bundle that has the key: Unable to resolve schema. Click to retry.
+2024-11-07 09:59:09.852 [warning] Using default string since no string found in i18n bundle that has the key: JSON Validation Status
+2024-11-07 09:59:09.853 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 09:59:14.582 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 09:59:14.672 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 09:59:14.673 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 09:59:14.673 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 10:00:27.881 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 10:00:28.060 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 10:00:28.085 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 10:00:28.085 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 10:00:28.085 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 10:00:45.847 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 10:00:45.849 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 10:00:45.870 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 10:00:45.870 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 10:00:45.870 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 10:01:05.621 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 10:01:05.624 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 10:01:05.655 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 10:01:05.655 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 10:01:05.655 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 10:01:17.620 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 10:01:17.622 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 10:01:17.648 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 10:01:17.648 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 10:01:17.648 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 10:02:05.023 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 10:02:05.025 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 10:02:05.059 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 10:02:05.059 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 10:02:05.060 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 10:02:16.684 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 10:02:16.686 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 10:02:16.709 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 10:02:16.710 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 10:02:16.710 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 10:04:20.595 [error] [hashicorp.terraform] provider FAILED
+2024-11-07 10:04:20.602 [error] Error: main.tf (3,12): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437683
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:437977)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432761
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.31.0@linux/out/extension.js:2:432781)
+    at processImmediate (node:internal/timers:476:21)
+2024-11-07 10:11:41.678 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 10:11:41.680 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 10:11:41.701 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 10:11:41.702 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 10:11:41.702 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 10:11:56.929 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2024-11-07 10:11:56.980 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2024-11-07 10:11:57.002 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2024-11-07 10:11:57.002 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2024-11-07 10:11:57.002 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2024-11-07 10:14:49.320 [info] Extension host terminating: received terminate message from renderer
+2024-11-07 10:14:49.322 [info] Lock '/home/davidelom_gnaglo/.codeoss/data/User/workspaceStorage/-34f7ea98/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-11-07 10:14:49.374 [info] Extension host with pid 1419 exiting with code 0

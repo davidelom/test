@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ianna-app-canary
+  namespace: ianna-app
+spec:
+  replicas: 1  
+  selector:
+    matchLabels:
+      app: ianna-app-canary
+  template:
+    metadata:
+      labels:
+        app: ianna-app-canary
+    spec:
+      containers:
+      - name: ianna-container-canary
+        image: gcr.io//ianna-project-exam:v2  # Nouvelle version canary pour test.
+        ports:
+        - containerPort: 8080

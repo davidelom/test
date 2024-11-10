@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorateur de Pays V2</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <%- include('partials/header') %>
+
+    <main>
+        <div class="search-container">
+            <input type="text" 
+                   id="searchInput" 
+                   placeholder="Rechercher un pays..."
+                   value="<%= searchTerm %>">
+        </div>
+
+        <div class="countries-grid" id="countriesContainer">
+            <% countries.forEach(country => { %>
+                <a href="/api/countries/<%= country.cca3 %>?version=<%= currentVersion %>" class="country-card">
+                    <div class="country-flag"><%= country.flag %></div>
+                    <h2><%= country.name.common %></h2>
+                    <div class="country-info">
+                        <p>Code: <%= country.cca3 %></p>
+                        <% if (currentVersion !== 'short') { %>
+                            <p>Population: <%= country.population.toLocaleString() %></p>
+                            <p>Capitale: <%= country.capital?.[0] || 'N/A' %></p>
+                        <% } %>
+                    </div>
+                </a>
+            <% }); %>
+        </div>
+    </main>
+
+    <script>
+        const searchInput = document.getElementById('searchInput');
+        const countriesContainer = document.getElementById('countriesContainer');
+        const version = document.getElementById('version');
+        const allCountries = Array.from(countriesContainer.children);
+
+        // Fonction de recherche
+        function filterCountries(searchTerm) {
+            searchTerm = searchTerm.toLowerCase();
+            
+            allCountries.forEach(card => {
+                const countryName = card.querySelector('h2').textContent.toLowerCase();
+                const countryCode = card.querySelector('.country-info p').textContent.toLowerCase();
+                
+                if (countryName.includes(searchTerm) || countryCode.includes(searchTerm)) {
+                    card.style.display = '';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Écouteur d'événement pour la recherche en temps réel
+        searchInput.addEventListener('input', (e) => {
+            filterCountries(e.target.value);
+        });
+
+        // Gestion du changement de version
+        version.addEventListener('change', function() {
+            window.location.href = `/api/countries?version=${this.value}`;
+        });
+    </script>
+</body>
+</html> 

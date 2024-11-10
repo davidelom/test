@@ -1,0 +1,11 @@
+Initializing document watcher...
+Document watcher initialized
+davidelom_gnaglo/kubernates/deployment-strategies-green-blue/blue-deployment.yaml: {}
+davidelom_gnaglo/main.tf: {}
+davidelom_gnaglo/main.tf: {}
+davidelom_gnaglo/app/Dockerfile: {}
+davidelom_gnaglo/kubernates/deployment.yaml: {}
+davidelom_gnaglo/kubernates/service.yaml: {}
+davidelom_gnaglo/kubernates/deployment.yaml: {}
+davidelom_gnaglo/kubernates/service.yaml: {}
+davidelom_gnaglo/kubernates/service.yaml: {}

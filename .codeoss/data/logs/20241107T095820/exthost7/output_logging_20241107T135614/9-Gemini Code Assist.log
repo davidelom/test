@@ -1,0 +1,71 @@
+I1107 13:56:31.066248   12787 serve.go:43] cloudcode_cli (Oct 24 2024 14:04:58 -0700, cl:689507202 baseline:684420817)
+I1107 13:56:31.066355   12787 serve.go:44] Command line: ["/home/davidelom_gnaglo/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I1107 13:56:31.069003   12787 life_cycle.go:166] Initializing. Architecture: "amd64", Operating system: "linux"
+I1107 13:56:31.222016   12787 configuration.go:173] product updateChannel will be used
+I1107 13:56:31.222066   12787 configuration.go:578] language thresholds: map[]
+I1107 13:56:31.222088   12787 configuration.go:536] dataFileExtensions array: [.csv .tsv .jsonl]
+I1107 13:56:31.222111   12787 configuration.go:778] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000d1e101 StopSequences:map[] DataFilePromptLines:0}
+I1107 13:56:31.222148   12787 configuration.go:778] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc000d1e111 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I1107 13:56:31.222474   12787 configuration.go:255] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I1107 13:56:31.222514   12787 configuration.go:263] Configured settings for cloudCodeOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false}
+I1107 13:56:31.222527   12787 configuration.go:267] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:300000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} contextExclusionFile:.aiexclude chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1 userSelectedFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I1107 13:56:31.222566   12787 configuration.go:269] Configured settings for canCancelRequests: true
+I1107 13:56:31.222575   12787 configuration.go:271] Configured settings for contextPromptOpts: &{Endpoint:}
+I1107 13:56:31.402153   12787 handler.go:159] cancel was requested for: 1, needs to be canceled: false
+I1107 13:56:31.402175   12787 handler.go:163] cancel requested for 1 but not found
+W1107 13:57:11.466999   12787 server.go:588] unknown method "$/setTrace"
+I1107 13:57:11.509426   12787 configuration.go:173] product updateChannel will be used
+I1107 13:57:11.509477   12787 configuration.go:578] language thresholds: map[]
+I1107 13:57:11.509514   12787 configuration.go:536] dataFileExtensions array: [.csv .tsv .jsonl]
+I1107 13:57:11.509541   12787 configuration.go:778] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0012288d1 StopSequences:map[] DataFilePromptLines:0}
+I1107 13:57:11.509579   12787 configuration.go:778] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0012288e1 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I1107 13:57:11.509640   12787 configuration.go:255] Configured settings for atlasOpts: {"Project":"projet-infrastructure-cloud","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I1107 13:57:11.509655   12787 configuration.go:263] Configured settings for cloudCodeOpts: {"Project":"projet-infrastructure-cloud","LogPrompt":true,"UseTypeoverCache":true,"EnablePromptEnhancement":false}
+I1107 13:57:11.509665   12787 configuration.go:267] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:300000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} contextExclusionFile:.aiexclude chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1 userSelectedFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I1107 13:57:11.509696   12787 configuration.go:269] Configured settings for canCancelRequests: true
+I1107 13:57:11.509705   12787 configuration.go:271] Configured settings for contextPromptOpts: &{Endpoint:}
+I1107 13:57:11.563575   12787 experiments.go:133] Applied experiment flag "DuetAiLocalRag__enable_local_rag_completion" to enableRAGLCompletion with value true
+I1107 13:57:11.563615   12787 experiments.go:129] Applied experiment flag "DuetAiLocalRag__enable_local_rag_chat" to enableRAGLChat with value true
+I1107 13:57:11.563630   12787 experiments.go:125] Applied experiment flag "DuetAiLocalRag__enable_local_rag" to enableRAGL with value true
+I1107 13:57:11.563648   12787 experiments.go:118] Applied experiment flag %!q(bool=true) to cloudCodeOpts.EnablePromptEnhancment with value %!t(MISSING)
+I1107 13:57:11.563672   12787 experiments.go:94] Applied experiment flag "Chat__chat_context_window_size" to chat.contextWindowSize with value -1
+I1107 13:57:11.563686   12787 experiments.go:157] Applied experiment flag "DuetAiLocalRag__otherfiles_chat_limit" to otherFilesChatLimit with value 20
+I1107 13:57:11.563764   12787 experiments.go:137] Applied experiment flag "DuetAiLocalRag__otherfiles_generation_limit" to otherFilesGenerationLimit with value 40
+I1107 13:57:11.563779   12787 experiments.go:98] Applied experiment flag "Chat__fca_chat_context_window_size" to chat.fcaContextWindowSize with value -1
+I1107 13:57:11.563788   12787 experiments.go:90] Applied experiment flag "DuetAiGeneration__codeGeneration_context_window_size" to otherFilesGenerationSizeLimit with value 64000
+I1107 13:57:11.563800   12787 experiments.go:153] Applied experiment flag "DuetAiLocalRag__otherfiles_completion_limit" to otherFilesCompletionLimit with value 15
+I1107 13:57:11.563812   12787 experiments.go:110] Applied experiment flag "DuetAiMendelOverrides__inlineSuggestions_debounceMs" to completionOpts.debounce with value 300
+I1107 13:57:11.563825   12787 experiments.go:106] Applied experiment flag "DuetAiMendelOverrides__codeCompletion_defaultThreshold" to completionOpts.minScoreTheshold with value -4.1
+I1107 13:57:11.563842   12787 experiments.go:141] Applied experiment flag "DuetAiLocalRag__cache_co_located" to coLocated with value 20
+I1107 13:57:11.563854   12787 experiments.go:145] Applied experiment flag "DuetAiLocalRag__cache_file_limit" to fileLimit with value 524288
+I1107 13:57:11.563866   12787 experiments.go:149] Applied experiment flag "DuetAiLocalRag__cache_total_files" to totalFiles with value 250
+I1107 13:57:11.563893   12787 configuration.go:404] Repopulating context cache from document cache
+I1107 13:57:11.565222   12787 rag_cache.go:155] The current document with URI file:///home/davidelom_gnaglo/.terraform.d is empty
+I1107 13:57:11.566826   12787 cloudcode.go:41] Using Cloud Code API
+I1107 13:57:11.569039   12787 client.go:226] CompleteCode request: {"enablePromptEnhancement":true,"ideContext":{"currentFile":{"segments":[{"content":"healthcheck-1f0b30ad-49a4-4b29-865d-c96b1106584e"},{"isSelected":true},{}]}},"metadata":{"ideType":"CLOUD_SHELL","ideVersion":"1.89.1-cde","platform":"LINUX_AMD64","pluginType":"CLOUD_CODE","pluginVersion":"2.19.0"},"project":"projet-infrastructure-cloud","requestId":"cloudcode-689507202-cbd4e539-d551-4ef7-a3e0-7312beecf885"}
+W1107 13:57:11.657787   12787 experiments.go:63] Health check failed after applying experiments: googleapi: Error 403: Gemini for Google Cloud API has not been used in project projet-infrastructure-cloud before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/cloudaicompanion.googleapis.com/overview?project=projet-infrastructure-cloud then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+Details:
+[
+  {
+    "@type": "type.googleapis.com/google.rpc.Help"
+  },
+  {
+    "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+    "domain": "googleapis.com",
+    "metadata": {
+      "consumer": "projects/projet-infrastructure-cloud",
+      "service": "cloudaicompanion.googleapis.com"
+    },
+    "reason": "SERVICE_DISABLED"
+  }
+]
+, accessNotConfigured
+I1107 13:57:20.560110   12787 handler.go:159] cancel was requested for: 23, needs to be canceled: false
+I1107 13:57:20.560137   12787 handler.go:163] cancel requested for 23 but not found
+I1107 13:57:23.210584   12787 client.go:226] CompleteCode request: {"enablePromptEnhancement":true,"ideContext":{"currentFile":{"segments":[{"content":"healthcheck-242e089d-dc90-4cc3-ba5c-0bbb1efabc67"},{"isSelected":true},{}]}},"metadata":{"ideType":"CLOUD_SHELL","ideVersion":"1.89.1-cde","platform":"LINUX_AMD64","pluginType":"CLOUD_CODE","pluginVersion":"2.19.0"},"project":"projet-infrastructure-cloud","requestId":"cloudcode-689507202-e4212618-8d1d-4591-ad21-f948a03d6a17"}
+I1107 13:57:25.690147   12787 conversation.go:122] New conversation started, chat history reset
+I1107 13:57:26.389600   12787 document.go:423] NoneEditType, returning ReasonRecentlyOpened
+E1107 13:57:26.389701   12787 ide_context.go:129] Error reading file at /home/davidelom_gnaglo/.aiexclude
+/home/davidelom_gnaglo
+file:///home/davidelom_gnaglo
+E1107 13:57:26.389722   12787 conversation.go:497] Error getting excluded files for request #26: open /home/davidelom_gnaglo/.aiexclude: no such file or directory

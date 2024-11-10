@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ianna-app-blue  
+  namespace: ianna-app
+spec:
+  replicas: 3  
+  selector:
+    matchLabels:
+      app: ianna-app-blue  
+  template:
+    metadata:
+      labels:
+        app: ianna-app-blue  
+    spec:
+      containers:
+      - name: ianna-container-blue  
+        image: gcr.io/projet-infrastructure-cloud/ianna-project-exam:v 
+        ports:
+        - containerPort: 8080  

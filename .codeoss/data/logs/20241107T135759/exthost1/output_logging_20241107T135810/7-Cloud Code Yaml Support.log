@@ -1,0 +1,26 @@
+[Error - 2:16:07 PM] Error making request: The user aborted a request.
+[Error - 3:35:55 PM] Error making request: The user aborted a request.
+
+<--- Last few GCs --->
+
+[1285:0xf25ce40]  6515647 ms: Mark-sweep (reduce) 2045.8 (2086.3) -> 2045.6 (2086.1) MB, 4568.3 / 0.0 ms  (average mu = 0.087, current mu = 0.000) allocation failure; scavenge might not succeed
+[1285:0xf25ce40]  6518179 ms: Mark-sweep (reduce) 2046.0 (2086.2) -> 2046.0 (2086.2) MB, 2522.4 / 0.0 ms  (+ 0.0 ms in 0 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 2531 ms) (average mu = 0.056, current mu = 0.004) a
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+ 1: 0xb85bc0 node::Abort() [/google/devshell/editor/code-oss-for-cloud-shell/node]
+ 2: 0xa94834  [/google/devshell/editor/code-oss-for-cloud-shell/node]
+ 3: 0xd66d10 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+ 4: 0xd670b7 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+ 5: 0xf447c5  [/google/devshell/editor/code-oss-for-cloud-shell/node]
+ 6: 0xf56cad v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+ 7: 0xf313ae v8::internal::HeapAllocator::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+ 8: 0xf32777 v8::internal::HeapAllocator::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+ 9: 0xf1394a v8::internal::Factory::NewFillerObject(int, v8::internal::AllocationAlignment, v8::internal::AllocationType, v8::internal::AllocationOrigin) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+10: 0x12d8e6d v8::internal::Runtime_AllocateInOldGeneration(int, unsigned long*, v8::internal::Isolate*) [/google/devshell/editor/code-oss-for-cloud-shell/node]
+11: 0x1705b39  [/google/devshell/editor/code-oss-for-cloud-shell/node]
+[Error - 3:47:01 PM] Server process exited with signal SIGABRT.
+[Info  - 3:47:01 PM] Connection to server got closed. Server will restart.
+true
+[Error - 3:51:15 PM] Failed to load entities from /home/davidelom_gnaglo/kubernates/prometheus/vendor/github.com/mattn/go-isatty/renovate.json: Error: ENOENT: no such file or directory, open '/home/davidelom_gnaglo/kubernates/prometheus/vendor/github.com/mattn/go-isatty/renovate.json'

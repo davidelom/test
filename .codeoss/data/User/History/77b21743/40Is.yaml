@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ianna-app-stable
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ianna-app
+      version: stable
+  template:
+    metadata:
+      labels:
+        app: ianna-app
+        version: stable
+    spec:
+      containers:
+      - name: ianna-app-container
+        image: gcr.io/projet-infrastructure-cloud/ianna-project-exam:v2
